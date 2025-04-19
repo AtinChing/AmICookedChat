@@ -9,7 +9,7 @@ async function sendToBackend(tab) {
     
     console.log("Sending:", data);
   // send data to python script running on the machine
-    fetch("http://localhost:5000/log", {
+    fetch("http://127.0.0.1:5000/log", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
