@@ -1,0 +1,31 @@
+[
+  {
+    "sequence": [
+      "Google Docs",
+      "YouTube"
+    ],
+    "time_ago": "15 mins ago",
+    "frequency_info": "This happens most often around 2pm",
+    "impact_level": "high"
+  },
+  {
+    "sequence": [
+      "Slack",
+      "Instagram",
+      "Reddit"
+    ],
+    "time_ago": "1 hour ago",
+    "frequency_info": "This loop repeats around 3pm daily",
+    "impact_level": "medium"
+  },
+  {
+    "sequence": [
+      "Notion",
+      "X (Twitter)",
+      "YouTube Shorts"
+    ],
+    "time_ago": "Yesterday at 4pm",
+    "frequency_info": "Common after long deep work blocks",
+    "impact_level": "high"
+  }
+]
