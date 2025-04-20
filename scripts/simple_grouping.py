@@ -61,7 +61,7 @@ def write_stage2_json(grouped_data, output_path):
 
 if __name__ == "__main__":
     input_path = "data/classification.jsonl"  # replace with your path
-    output_path = "stage2_grouped_simple.json"
+    output_path = "data/stage2_grouped_simple.json"
 
     stage1_data = load_stage1_jsonl(input_path)
     grouped_blocks = group_stage1_data(stage1_data)
