@@ -14,8 +14,6 @@ export const mockUserData: UserData = {
     .map(entry => ({
       ...entry,
       duration_min: entry.duration_min,
-      start: new Date(entry.start).toISOString(),
-      end: new Date(entry.end).toISOString()
     })),
   distraction_loops: rawData.distraction_loops,
   suggestions: rawData.suggestions
