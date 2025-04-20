@@ -3,7 +3,7 @@ import datetime
 from clean_data import clean_html
 import json
 import re
-client = genai.Client(api_key="AIzaSyDSyIBzIJ9yVnXYd6sJaE7oZ0Vqnc4kEPM")
+client = genai.Client(api_key="")
 
 def extract_json_from_gemini(text):
     # Remove the "json" header or code block formatting
