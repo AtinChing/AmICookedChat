@@ -6,7 +6,7 @@ const Landing: React.FC = () => {
   const { loginWithRedirect, isAuthenticated } = useAuth0();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-100 to-indigo-175 text-black">
+    <div className="min-h-screen bg-gradient-to-b from-purple-100 to-indigo-100 text-black">
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
@@ -25,7 +25,7 @@ const Landing: React.FC = () => {
       {/* Hero Section */}
       <div className="container mx-auto px-6 py-20">
         <div className="text-center max-w-4xl mx-auto">
-        <h1 className="text-6xl font-bold mb-8 leading-tight">
+        <h1 className="text-6xl font-bold mb-8 leading-tight animate-fadeIn">
             Real-time
             <span
               className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-300 animate-fadeIn"
