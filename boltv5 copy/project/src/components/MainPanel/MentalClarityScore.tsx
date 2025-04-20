@@ -1,6 +1,5 @@
 import React from 'react';
 import { Brain, Flame, AlertTriangle } from 'lucide-react';
-import { useLanguage } from '../../contexts/LanguageContext';
 import { mockUserData } from '../../data/mockData';
 
 const MentalClarityScore: React.FC = () => {

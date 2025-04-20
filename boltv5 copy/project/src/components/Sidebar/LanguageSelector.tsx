@@ -14,10 +14,6 @@ const LanguageSelector: React.FC = () => {
 
   return (
     <div className="mt-auto p-4">
-      <div className="flex items-center text-gray-300">
-        <Globe size={16} className="mr-2" />
-        <span className="text-sm">Language</span>
-      </div>
       <div className="mt-1 flex space-x-2">
         {languages.map((lang) => (
           <button
