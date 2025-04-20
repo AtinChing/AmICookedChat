@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import json
 import os
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from scripts.topic_classification import classify
 from scripts.metric_calculation import update_metrics
 import scripts.complex_grouping as grouping
@@ -33,12 +33,17 @@ async def log_tab_data(data : Data, background_tasks: BackgroundTasks):
         # Update the *last* entry with end_timestamp = this entry's timestamp
         if lines:
             last_entry = json.loads(lines[-1])
-            last_entry["end_timestamp"] = data.timestamp.isoformat()
-            duration = (datetime.fromisoformat(last_entry["end_timestamp"]) - datetime.fromisoformat(last_entry["timestamp"])).total_seconds() / 60
+            #last_entry["end_timestamp"] = data.timestamp.isoformat()
+            start = datetime.fromisoformat(last_entry["timestamp"]).astimezone(timezone.utc).replace(tzinfo=None)
+            end = data.timestamp.astimezone(timezone.utc).replace(tzinfo=None)
+            print("start", start.strftime(format="%m/%d/%Y, %H:%M:%S"))
+            print("end", end.strftime(format="%m/%d/%Y, %H:%M:%S"))
+            duration = (end - start).total_seconds() / 60
+            print(f"duration is {duration}")
             last_entry["duration"] = round(duration, 2)
             lines[-1] = json.dumps(last_entry) + "\n"
         #print("Received log:", data)
-        time.sleep(1) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT live streaming
+        await asyncio.sleep(1) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT live streaming
         res = classify(html_content=data.html_content, title=data.tab_title, url=data.tab_url)
         lines.append(json.dumps(res) + "\n") # new final log output
 
@@ -58,7 +63,7 @@ def group_data():
     input_path = "data/classification.jsonl"  # replace with your path
     output_path = "data/stage2_grouped_complex.json"
     grouping.group(input_path, output_path)
-    open(input_path, "w").close() # clear the file
+    #open(input_path, "w").close() # clear the file
 
 def calculate_metrics():
     input_path = "data/stage2_grouped_complex.json"

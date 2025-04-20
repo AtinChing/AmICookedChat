@@ -85,7 +85,7 @@ Group them into logical task blocks based on shared **intent**, not just mental_
 
 ⛔ Do not explain. Do not include markdown.  
 ✅ Output only valid JSON: a list of groups, each group being a list of activity objects.
-
+Make sure to include the duration field for anything you have the duration for. Don't leave out any fields.
 Start the output with '[' and end with ']'. Do not return anything before or after the JSON array.\n\n"""
 
     prompt += json.dumps(entries, indent=2)

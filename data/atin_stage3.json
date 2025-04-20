@@ -1,73 +1,14 @@
 {
-  "mental_clarity_score": 0.75,
-  "current_activity": "I am summarizing the user's activity on the current webpage based on its content stripped of HTML tags.",
-  "tab_switch_count": 289,
-  "focus_blocks": 2,
-  "deep_work_minutes": 190,
+  "mental_clarity_score": 92.31,
+  "current_activity": "The user is likely managing or reviewing a hackathon project on Devpost, possibly in draft stage, with a looming deadline.",
+  "tab_switch_count": 28,
+  "focus_blocks": 0,
+  "deep_work_minutes": 1.66,
   "breaks": 2,
-  "focus_timeline": [
-    {
-      "start": "2025-04-20T04:42:21.170761",
-      "end": "2025-04-19T22:56:55.142576",
-      "duration_min": 1440,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring system activity and providing insights into task switching patterns.",
-      "title": "Attention Split Tracker Roadmap"
-    },
-    {
-      "start": "2025-04-19T21:19:42.994135",
-      "end": "2025-04-19T21:21:45.364344",
-      "duration_min": 3,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is viewing the README.md file for the AmICookedChat project on GitHub.",
-      "title": "GitHub - AmICookedChat README"
-    },
-    {
-      "start": "2025-04-19T21:19:40.461132",
-      "end": "2025-04-19T21:21:46.478708",
-      "duration_min": 2,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "The user is viewing a Jupyter Notebook on GitHub that explores using Google's GenAI API and PRAW to classify Reddit posts, suggesting they are studying or working on a machine learning project.",
-      "title": "GitHub - AI Applications Notebook"
-    },
-    {
-      "start": "2025-04-19T21:19:39.535921",
-      "end": "2025-04-19T22:18:25.083691",
-      "duration_min": 58,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is filling out a student talent form for Fidelity.",
-      "title": "Fidelity - Talent Form"
-    },
-    {
-      "start": "2025-04-19T21:19:42.852826",
-      "end": "2025-04-19T22:35:09.938306",
-      "duration_min": 1,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "User is researching the costs associated with Google Gemini.",
-      "title": "Google Search - Gemini Costs"
-    },
-    {
-      "start": "2025-04-20T00:19:08.248468",
-      "end": "2025-04-20T00:04:19.656489",
-      "duration_min": 3,
-      "context": "entertainment",
-      "isDistractive": true,
-      "summary": "User is watching a slowed and reverb version of the song \"Elle est bonne sa m\u00e8re\" by Vegedream featuring Ninho on YouTube.",
-      "title": "Youtube - Music Video"
-    }
-  ],
-  "distraction_loops": [
-    "Google Docs -> YouTube",
-    "Google Search -> Stack Overflow"
-  ],
+  "focus_timeline": [],
+  "distraction_loops": [],
   "suggestions": [
-    "Try Pomodoro sessions: work on the project for 25 minutes, then take a 5 minute break",
-    "Create a physical workspace dedicated solely to focused work",
-    "Minimize distractions by turning off notifications"
+    "Try dedicating larger, uninterrupted blocks of time to specific tasks to reduce fragmentation.",
+    "Limit switching between different websites and contexts during focused work periods."
   ]
 }
