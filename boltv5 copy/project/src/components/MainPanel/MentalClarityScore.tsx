@@ -4,7 +4,7 @@ import { mockUserData } from '../../data/mockData';
 
 const MentalClarityScore: React.FC = () => {
   const { clarityScore } = mockUserData;
-  const score = Math.round(mockUserData.mental_clarity_score * 100);
+  const score = Math.round(mockUserData.mental_clarity_score);
   
   const getCookedStatus = () => {
     if (score > 70) return { status: 'Fresh', emoji: '🧊', color: 'bg-green-400' };

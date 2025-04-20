@@ -13,6 +13,7 @@ export const mockUserData: UserData = {
     .sort((a, b) => b.duration_min - a.duration_min)
     .map(entry => ({
       ...entry,
+      duration_min: entry.duration_min,
       start: new Date(entry.start).toISOString(),
       end: new Date(entry.end).toISOString()
     })),

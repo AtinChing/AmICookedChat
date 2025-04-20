@@ -1,9 +1,9 @@
 import React from 'react';
 import { Clock } from 'lucide-react';
-import userData  from '../../data/atin_stage3.json';
+import {mockUserData}  from '../../data/mockData';
 
 const FocusTimeline: React.FC = () => {
-  const { focus_timeline } = userData;
+  const { focus_timeline } = mockUserData;
   
   // Get top 5 activities by duration
   const recentActivities = focus_timeline
@@ -38,7 +38,7 @@ const FocusTimeline: React.FC = () => {
                     {activity.title.split(' ').slice(0, 4).join(' ')}...
                   </span>
                   <span className="text-xs text-gray-500">
-                    {isOver60 ? '60+ min' : `${Math.round(activity.duration_min)} min`}
+                    {isOver60 ? '60+ min' : `${activity.duration_min} min`}
                   </span>
                 </div>
                 <div 

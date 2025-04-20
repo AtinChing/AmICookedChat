@@ -1,508 +1,115 @@
 {
-  "mental_clarity_score": 0.65,
-  "current_activity": "User is developing a hackathon project that analyzes and visualizes a user's task-switching behavior to provide insights into their focus and mental fragmentation.",
-  "tab_switch_count": 180,
+  "mental_clarity_score": 84.27,
+  "current_activity": "User is interacting with a tool designed for mental clarity on Am I Cooked.chat.",
+  "tab_switch_count": 63,
   "focus_blocks": 2,
-  "deep_work_minutes": 50,
-  "breaks": 7,
+  "deep_work_minutes": 90.13,
+  "breaks": 1,
   "focus_timeline": [
     {
-      "start": "2025-04-19T21:19:38.992725",
-      "end": "2025-04-19T21:19:39.535921",
-      "duration_min": 0.01,
+      "start": "2025-04-20T05:57:00.167031",
+      "end": "2025-06-34:42.344507",
+      "duration_min": 37.7,
       "context": "work",
       "isDistractive": false,
-      "summary": "The user is seeing a \"Service Not Allowed\" page from Google, indicating they lack access to AI Studio, likely due to organizational restrictions or account issues."
+      "summary": "The user is working on a project called AmICooked.Chat on Devpost, seemingly participating in a hackathon and is currently in the project submission process.",
+      "title": "Devpost - AmICooked.Chat Submission"
     },
     {
-      "start": "2025-04-19T21:19:40.461132",
-      "end": "2025-04-19T21:19:42.852826",
-      "duration_min": 0.04,
+      "start": "2025-04-20T06:08:37.702606",
+      "end": "2025-06:25:47.361510",
+      "duration_min": 17.16,
+      "context": "work",
+      "isDistractive": false,
+      "summary": "User is collaborating on a Google Docs document, likely related to HackDavis and brainstorming project ideas with a focus on resume impact and AI/ML relevance.",
+      "title": "Google Docs - HackDavis Brainstorm"
+    },
+    {
+      "start": "2025-04-20T06:08:35.670608",
+      "end": "2025-06:28:12.418004",
+      "duration_min": 19.61,
+      "context": "neutral",
+      "isDistractive": false,
+      "summary": "User is browsing the Devpost page for the 'nomad' project, likely related to addressing homelessness and lost animals.",
+      "title": "Devpost - Browsing Projects"
+    },
+    {
+      "start": "2025-04-20T06:08:40.232697",
+      "end": "2025-06:11:42.772398",
+      "duration_min": 3.04,
+      "context": "neutral",
+      "isDistractive": false,
+      "summary": "The user is viewing a private GitHub repository named 'AmICookedChat' created by 'AtinChing', likely a project for HackDavis 2025.",
+      "title": "GitHub - AmICookedChat Repo (Neutral)"
+    },
+    {
+      "start": "2025-04-20T06:08:42.105932",
+      "end": "2025-07:14:05.988275",
+      "duration_min": 65.4,
+      "context": "work",
+      "isDistractive": false,
+      "summary": "The user is on a GitHub repository page called 'AmICookedChat' created by 'AtinChing', likely related to a HackDavis 2025 project.",
+      "title": "GitHub - AmICookedChat Repo (Work)"
+    },
+    {
+      "start": "2025-04-20T06:50:29.972437",
+      "end": "2025-06:56:45.100908",
+      "duration_min": 6.25,
       "context": "study",
       "isDistractive": false,
-      "summary": "The user is viewing a Jupyter Notebook on GitHub that explores using Google's GenAI API and PRAW to classify Reddit posts, suggesting they are studying or working on a machine learning project."
+      "summary": "The user is viewing a Stack Overflow page about how to see the current value of my $PATH variable on macOS.",
+      "title": "Stack Overflow - Technical Help"
     },
     {
-      "start": "2025-04-19T21:19:42.994135",
-      "end": "2025-04-19T21:19:42.994135",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is viewing the README.md file for the AmICookedChat project on GitHub."
-    },
-    {
-      "start": "2025-04-19T21:20:16.868129",
-      "end": "2025-04-19T21:20:16.868129",
-      "duration_min": 0.0,
+      "start": "2025-04-20T06:52:53.699870",
+      "end": "2025-06:56:45.100908",
+      "duration_min": 3.86,
       "context": "study",
       "isDistractive": false,
-      "summary": "User is researching how to access Chrome DevTools for a Chrome extension."
+      "summary": "User is asking ChatGPT how to add something to their $PATH on a Mac.",
+      "title": "ChatGPT - PATH Variable Help"
     },
     {
-      "start": "2025-04-19T21:21:45.364344",
-      "end": "2025-04-19T21:21:45.364344",
-      "duration_min": 0.0,
+      "start": "2025-04-20T07:02:10.113756",
+      "end": "2025-07:05:57.521530",
+      "duration_min": 3.79,
       "context": "work",
       "isDistractive": false,
-      "summary": "User is contributing to a project on GitHub, which involves tracking browser activity and developing strategies for managing productivity."
+      "summary": "The user is encountering an npm error because the package.json file cannot be found in the specified directory while running the 'dev' script.",
+      "title": "ChatGPT - NPM Error Debugging"
     },
     {
-      "start": "2025-04-19T21:21:46.478708",
-      "end": "2025-04-19T21:21:46.478708",
-      "duration_min": 0.0,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "User is viewing a Jupyter Notebook on GitHub about building a Reddit post classifier with weak supervision using Google AI's genai API."
-    },
-    {
-      "start": "2025-04-19T21:22:16.519901",
-      "end": "2025-04-19T21:26:59.128200",
-      "duration_min": 4.71,
+      "start": "2025-04-20T07:04:15.704903",
+      "end": "2025-07:51:45.714128",
+      "duration_min": 47.5,
       "context": "work",
       "isDistractive": false,
-      "summary": "User is searching for information on how to access Chrome DevTools for Chrome extensions, likely for debugging or development purposes."
+      "summary": "User is analyzing the content of a webpage.",
+      "title": "Local Development Server (Work)"
     },
     {
-      "start": "2025-04-19T21:37:43.834449",
-      "end": "2025-04-19T21:39:49.593493",
-      "duration_min": 2.1,
+      "start": "2025-04-20T07:05:49.427153",
+      "end": "2025-07:59:39.441439",
+      "duration_min": 53.84,
       "context": "neutral",
       "isDistractive": false,
-      "summary": "User is browsing GitHub repository 'AmICookedChat', which is a project for HackDavis 2025."
+      "summary": "Based on the provided information, I am unable to determine what the user is doing.",
+      "title": "Local Development Server (Neutral)"
     },
     {
-      "start": "2025-04-19T21:40:52.362004",
-      "end": "2025-04-19T21:40:52.362004",
-      "duration_min": 0.0,
+      "start": "2025-04-20T07:54:49.642068",
+      "end": "2025-07:58:38.070879",
+      "duration_min": 3.81,
       "context": "work",
       "isDistractive": false,
-      "summary": "User is viewing the code repository for a HackDavis 2025 project called AmICookedChat."
-    },
-    {
-      "start": "2025-04-19T21:45:53.704604",
-      "end": "2025-04-19T21:45:53.704604",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is browsing the source code of their private github repository named 'AmICookedChat'."
-    },
-    {
-      "start": "2025-04-19T21:46:13.193964",
-      "end": "2025-04-19T21:47:17.785710",
-      "duration_min": 1.08,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "The user is browsing the GitHub repository \"AmICookedChat\", which is a project for HackDavis 2025 that is still under development."
-    },
-    {
-      "start": "2025-04-19T21:47:44.913490",
-      "end": "2025-04-19T21:47:44.913490",
-      "duration_min": 0.0,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "User is viewing a Jupyter Notebook on GitHub about using PRAW to collect Reddit data and Google AI's genai to classify posts, implying they are likely studying or working on an AI/data science project."
-    },
-    {
-      "start": "2025-04-19T21:47:45.521096",
-      "end": "2025-04-19T21:47:45.521096",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "The user is viewing code and files for the AmICookedChat repository on GitHub."
-    },
-    {
-      "start": "2025-04-19T22:13:02.002603",
-      "end": "2025-04-19T22:13:05.610205",
-      "duration_min": 0.06,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is brainstorming and creating a roadmap for a hackathon project called \"Attention Split Analyzer\" that tracks task switching and provides insights into mental fragmentation."
-    },
-    {
-      "start": "2025-04-19T22:13:13.393494",
-      "end": "2025-04-19T22:13:13.393494",
-      "duration_min": 0.0,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "The user is viewing the documentation for Vertex AI on Google Cloud, likely to learn about it or use it in some capacity."
-    },
-    {
-      "start": "2025-04-19T22:13:21.859903",
-      "end": "2025-04-19T22:17:10.845475",
-      "duration_min": 3.82,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "The user is viewing a private GitHub repository named 'AmICookedChat' created by AtinChing, likely related to a HackDavis 2025 project."
-    },
-    {
-      "start": "2025-04-19T22:18:24.403494",
-      "end": "2025-04-19T22:18:24.403494",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "User is searching for information about the Bolt Hackathon on Google."
-    },
-    {
-      "start": "2025-04-19T22:18:25.083691",
-      "end": "2025-04-19T22:21:37.486676",
-      "duration_min": 3.21,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is filling out a student talent form, likely to join a talent network for job alerts and updates from Fidelity."
-    },
-    {
-      "start": "2025-04-19T22:21:37.994825",
-      "end": "2025-04-19T22:21:37.994825",
-      "duration_min": 0.0,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "User is viewing a webpage about baking a chocolate cake."
-    },
-    {
-      "start": "2025-04-19T22:21:38.917536",
-      "end": "2025-04-19T22:21:38.917536",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "User is waiting for webpage content to be provided."
-    },
-    {
-      "start": "2025-04-19T22:23:39.927431",
-      "end": "2025-04-19T22:23:42.552248",
-      "duration_min": 0.04,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am summarizing the user's activity on the current webpage based on the provided context."
-    },
-    {
-      "start": "2025-04-19T22:23:43.081265",
-      "end": "2025-04-19T22:24:40.528416",
-      "duration_min": 0.96,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I cannot provide a summary without the content of the webpage."
-    },
-    {
-      "start": "2025-04-19T22:24:42.531147",
-      "end": "2025-04-19T22:34:27.190782",
-      "duration_min": 9.74,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a roadmap for a hackathon project that tracks and analyzes task switching behavior."
-    },
-    {
-      "start": "2025-04-19T22:35:00.362339",
-      "end": "2025-04-19T22:35:00.362339",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am unable to summarize user activity without any content from the webpage."
-    },
-    {
-      "start": "2025-04-19T22:35:00.545158",
-      "end": "2025-04-19T22:35:00.545158",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "The user is developing a roadmap for a project called 'Attention Split Analyzer' which aims to track and analyze task-switching behavior to provide insights into mental fragmentation and focus."
-    },
-    {
-      "start": "2025-04-19T22:35:09.938306",
-      "end": "2025-04-19T22:35:56.021471",
-      "duration_min": 0.77,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "User is searching on Google for information about the costs associated with Gemini."
-    },
-    {
-      "start": "2025-04-19T22:37:21.937865",
-      "end": "2025-04-19T22:37:41.262621",
-      "duration_min": 0.32,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am summarizing the user's activity on the webpage based on the provided information."
-    },
-    {
-      "start": "2025-04-19T22:37:45.409845",
-      "end": "2025-04-19T22:38:55.807599",
-      "duration_min": 1.17,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I don't have enough information to provide a summary and mental context, as the webpage content has been stripped of information."
-    },
-    {
-      "start": "2025-04-19T22:39:07.480816",
-      "end": "2025-04-19T22:47:21.578367",
-      "duration_min": 8.23,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "The user is developing a roadmap for an application that tracks and analyzes attention splits and task switching habits to provide insights into mental fragmentation."
-    },
-    {
-      "start": "2025-04-19T22:47:24.679117",
-      "end": "2025-04-19T22:47:24.679117",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am unable to determine the user's activity without any information from the webpage content."
-    },
-    {
-      "start": "2025-04-19T22:47:25.260770",
-      "end": "2025-04-19T22:48:19.090676",
-      "duration_min": 0.9,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a tool to track and analyze attention fragmentation based on system activity and browser history."
-    },
-    {
-      "start": "2025-04-19T22:48:19.843594",
-      "end": "2025-04-19T22:48:19.843594",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am summarizing the user's activity based on the webpage content they are currently viewing."
-    },
-    {
-      "start": "2025-04-19T22:48:24.838945",
-      "end": "2025-04-19T22:48:25.428463",
-      "duration_min": 0.01,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am summarizing the user's activity on the current webpage."
-    },
-    {
-      "start": "2025-04-19T22:50:21.477079",
-      "end": "2025-04-19T22:50:21.477079",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am unable to determine what the user is doing because the provided content is empty."
-    },
-    {
-      "start": "2025-04-19T22:50:25.469909",
-      "end": "2025-04-19T22:50:25.469909",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am providing information about a webpage the user is currently on, stripped of HTML tags, and asking for a summary and mental context classification."
-    },
-    {
-      "start": "2025-04-19T22:55:05.514257",
-      "end": "2025-04-19T22:55:17.551441",
-      "duration_min": 0.2,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I need more information about the webpage to provide an accurate summary and mental_context classification."
-    },
-    {
-      "start": "2025-04-19T22:55:25.592932",
-      "end": "2025-04-19T22:56:55.142576",
-      "duration_min": 1.49,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am analyzing the content of the webpage the user is currently on to provide a summary and mental context."
-    },
-    {
-      "start": "2025-04-19T23:46:45.335372",
-      "end": "2025-04-19T23:47:43.390221",
-      "duration_min": 0.97,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a hackathon project to track and analyze attention fragmentation by monitoring app usage, browser history, and other system events."
-    },
-    {
-      "start": "2025-04-20T00:00:55.206072",
-      "end": "2025-04-20T00:00:55.206072",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am analyzing the content of a webpage to provide a summary and mental context classification."
-    },
-    {
-      "start": "2025-04-20T00:01:33.588850",
-      "end": "2025-04-20T00:01:33.588850",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I need more information to accurately summarize what the user is doing and provide a mental context classification."
-    },
-    {
-      "start": "2025-04-20T00:01:36.588458",
-      "end": "2025-04-20T00:03:33.168624",
-      "duration_min": 1.94,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a tool to track and analyze task switching behavior to provide insights into focus and distraction."
-    },
-    {
-      "start": "2025-04-20T00:03:37.281761",
-      "end": "2025-04-20T00:03:56.699324",
-      "duration_min": 0.32,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I need more information about the content of the webpage the user is on to accurately summarise their activity."
-    },
-    {
-      "start": "2025-04-20T00:03:59.570238",
-      "end": "2025-04-20T00:03:59.570238",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "I am analyzing the text content of a webpage to infer the user's activity and mental state."
-    },
-    {
-      "start": "2025-04-20T00:04:07.928420",
-      "end": "2025-04-20T00:04:11.883443",
-      "duration_min": 0.07,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "The user is interacting with ChatGPT, potentially exploring its features like image creation, writing assistance, text summarization, or seeking advice within a temporary chat session."
-    },
-    {
-      "start": "2025-04-20T00:04:14.053269",
-      "end": "2025-04-20T00:04:18.064371",
-      "duration_min": 0.07,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "The user is researching the differences between JSON and JSONL data formats using a Google search."
-    },
-    {
-      "start": "2025-04-20T00:04:19.656489",
-      "end": "2025-04-20T00:04:24.930769",
-      "duration_min": 0.09,
-      "context": "entertainment",
-      "isDistractive": true,
-      "summary": "User is watching a sped up version of the music video \"Vegedream, Ninho - Elle est bonne sa m\u00e8re\" on YouTube."
-    },
-    {
-      "start": "2025-04-20T00:04:26.409861",
-      "end": "2025-04-20T00:04:26.409861",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am unable to determine what the user is doing without any webpage content."
-    },
-    {
-      "start": "2025-04-20T00:04:30.110305",
-      "end": "2025-04-20T00:04:30.110305",
-      "duration_min": 0.0,
-      "context": "entertainment",
-      "isDistractive": true,
-      "summary": "User is watching a sped-up version of a music video on YouTube."
-    },
-    {
-      "start": "2025-04-20T00:04:31.127726",
-      "end": "2025-04-20T00:04:31.127726",
-      "duration_min": 0.0,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "User is on a Stack Overflow page titled \"python - Both json.load and json.loads is unable to load my jsonl file\", likely seeking help with a Python programming problem."
-    },
-    {
-      "start": "2025-04-20T00:05:03.338901",
-      "end": "2025-04-20T00:07:02.974891",
-      "duration_min": 1.99,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "User is interacting with ChatGPT, likely exploring its features and functionalities in a temporary chat session."
-    },
-    {
-      "start": "2025-04-20T00:07:05.471539",
-      "end": "2025-04-20T00:07:05.471539",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a tool to track and analyze attention fragmentation based on computer usage data to provide insights into task switching behavior."
-    },
-    {
-      "start": "2025-04-20T00:07:31.455071",
-      "end": "2025-04-20T00:07:31.455071",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am unable to provide a summary or mental_context classification as the provided content is empty."
-    },
-    {
-      "start": "2025-04-20T00:08:01.717770",
-      "end": "2025-04-20T00:08:24.362624",
-      "duration_min": 0.38,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is working on a hackathon project to build an attention split tracker that analyzes task switching and provides insights into mental fragmentation."
-    },
-    {
-      "start": "2025-04-20T00:15:22.981436",
-      "end": "2025-04-20T00:16:33.301084",
-      "duration_min": 1.17,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is creating a roadmap for a hackathon project that aims to track and analyze a user's attention split across different tasks and applications."
-    },
-    {
-      "start": "2025-04-20T00:18:18.125591",
-      "end": "2025-04-20T00:18:35.946803",
-      "duration_min": 0.3,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various data sources like browser history, system events, and clipboard activity."
-    },
-    {
-      "start": "2025-04-20T00:19:00.791466",
-      "end": "2025-04-20T00:19:00.791466",
-      "duration_min": 0.0,
-      "context": "neutral",
-      "isDistractive": false,
-      "summary": "I am providing information about my current activity based on the provided context for summarization and classification."
-    },
-    {
-      "start": "2025-04-20T00:19:01.205882",
-      "end": "2025-04-20T00:19:01.205882",
-      "duration_min": 0.0,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various data sources like browser history, system events, and clipboard activity."
-    },
-    {
-      "start": "2025-04-20T00:19:06.844169",
-      "end": "2025-04-20T00:19:06.844169",
-      "duration_min": 0.0,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "The user is on a Stack Overflow page titled \"python - Both json.load and json.loads is unable to load my jsonl file,\" likely seeking help with a programming problem."
-    },
-    {
-      "start": "2025-04-20T00:19:08.248468",
-      "end": "2025-04-20T00:19:08.248468",
-      "duration_min": 0.0,
-      "context": "entertainment",
-      "isDistractive": true,
-      "summary": "User is watching a slowed and reverb version of the song \"Elle est bonne sa m\u00e8re\" by Vegedream featuring Ninho on YouTube."
-    },
-    {
-      "start": "2025-04-20T00:19:08.777979",
-      "end": "2025-04-20T00:19:18.441478",
-      "duration_min": 0.16,
-      "context": "study",
-      "isDistractive": false,
-      "summary": "The user is researching the differences between JSON and JSONL data formats using a search engine."
-    },
-    {
-      "start": "2025-04-20T00:19:20.681671",
-      "end": "2025-04-20T00:21:53.605443",
-      "duration_min": 2.55,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "The user is browsing a GitHub repository named 'ai-test' owned by 'AtinChing' and is currently viewing the 'AI_Applications.ipynb' file."
+      "summary": "User is debugging code related to sorting a focus timeline and displaying duration minutes.",
+      "title": "ChatGPT - Timeline Debugging"
     }
   ],
-  "distraction_loops": [
-    "Google Search -> YouTube",
-    "GitHub -> YouTube",
-    "ChatGPT -> YouTube"
-  ],
+  "distraction_loops": [],
   "suggestions": [
-    "Use a website blocker to limit access to distracting websites during work hours.",
-    "Try the Pomodoro Technique to break work into focused intervals with short breaks.",
-    "Plan out your day in advance to help stay on track and minimize distractions."
+    "Block distracting sites like Discord and YouTube during dedicated focus periods.",
+    "Utilize techniques like the Pomodoro method for tasks like coding on localhost to build longer, sustained focus blocks.",
+    "When needing technical help (Stack Overflow, ChatGPT), try to consolidate your research and debugging sessions before switching back to core tasks."
   ]
 }
