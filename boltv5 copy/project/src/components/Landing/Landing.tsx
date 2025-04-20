@@ -31,7 +31,7 @@ const Landing: React.FC = () => {
               {" "}Mental Clarity
             </span>
           </h1>
-          <p className="text-xl mb-12 text-purple-100 leading-relaxed text-center text-black">
+          <p className="text-xl mb-12 leading-relaxed text-center text-black">
           The AI companion for overwhelmed minds.
           <br />
           Catch distractions, stay focused, and build better habits.
