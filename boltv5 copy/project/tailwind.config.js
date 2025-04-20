@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
@@ -41,10 +42,6 @@ export default {
           'Arial',
           'sans-serif',
         ],
-      },
-      boxShadow: {
-        'soft': '0 2px 15px -3px rgba(127, 34, 206, 0.05), 0 4px 6px -2px rgba(127, 34, 206, 0.03)',
-        'glow': '0 0 15px rgba(168, 85, 247, 0.15)',
       },
     },
   },
