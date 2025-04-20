@@ -199,7 +199,7 @@ Data that holds grouped labeled browser activity. All activities are now cluster
 ```
 
 ### Final metric/Stage 3 Data
-Final metrics are determined using the stage 3 data
+Final metrics are determined using the stage 2 data
 ```json
 {
   "mental_clarity_score": 16.7,
