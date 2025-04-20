@@ -29,7 +29,8 @@ async def log_tab_data(data : Data, background_tasks: BackgroundTasks):
                 lines = f.readlines()
         else:
             lines = []
-
+        if data.tab_title == "Am I Cooked.chat | Mental Clarity Tool":
+            return {"status": "ok"}
         # Update the *last* entry with end_timestamp = this entry's timestamp
         if lines:
             last_entry = json.loads(lines[-1])

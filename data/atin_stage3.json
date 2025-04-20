@@ -1,18 +1,30 @@
 {
-  "mental_clarity_score": 82.25,
-  "current_activity": "The user is on a GitHub repository page called 'AmICookedChat' created by 'AtinChing', likely related to a HackDavis 2025 project.",
-  "tab_switch_count": 14,
+  "mental_clarity_score": 49.35,
+  "current_activity": "User is refining the 'Inspiration' or 'Problem Statement' section of their Devpost submission for a project called AmICooked.chat, which analyzes focus and attention patterns.",
+  "tab_switch_count": 29,
   "focus_blocks": 0,
-  "deep_work_minutes": 0.14,
+  "deep_work_minutes": 16.92,
   "breaks": 1,
-  "focus_timeline": [],
-  "distraction_loops": [
-    "Study -> Entertainment",
-    "Entertainment -> Work"
+  "focus_timeline": [
+    {
+      "duration_min": 11.8,
+      "context": "work",
+      "isDistractive": false,
+      "summary": "The user is working on a project called AmICooked.Chat on Devpost, seemingly participating in a hackathon and is currently in the project submission process.",
+      "title": "Devpost - AmICookedChat Submission"
+    },
+    {
+      "duration_min": 15.63,
+      "context": "neutral",
+      "isDistractive": false,
+      "summary": "User is browsing the Devpost page for the 'nomad' project, likely related to addressing homelessness and lost animals.",
+      "title": "Devpost - Browsing Projects"
+    }
   ],
+  "distraction_loops": [],
   "suggestions": [
-    "Schedule dedicated focus blocks and breaks.",
-    "Use website blockers for distracting sites like YouTube during focus times.",
-    "Plan transitions between tasks to avoid getting sidetracked."
+    "Identify common triggers that lead to switching away from focused tasks.",
+    "Schedule dedicated time slots for 'work' or 'study' and minimize distractions during those times.",
+    "Use planned, short breaks between tasks to browse or check non-work sites."
   ]
 }

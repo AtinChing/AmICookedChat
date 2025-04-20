@@ -31,13 +31,11 @@ def update_metrics(input_path, output_path):
     • focus_blocks: number of work or study blocks that lasted 15+ minutes
     • deep_work_minutes: total minutes spent on work
     • breaks: number of entertainment or distraction blocks
-    • focus_timeline: this contains groups that include information about a task that may have been performed many times, non-continuously. for each group:
-        • start, end: earliest timestamp of this task that you can find and last timestamp ever
-        • duration_min: all the durations of doing this activity added up
+    • focus_timeline: store information about each action. Example of actions: Examples of actions: "Youtube - Gaming", "Google Docs - Project Report", "Gmail - Inbox", "Twitter Feed", "Online Course - Web Developer", "YouTube - Educational". For example, all actions that count as educational youtube usage, will be accessed and stored as 1 element in this "focus timeline list". The fields it will include:
+        • duration_min: sum of durations of every single instance of this action in our data
         • context: mental_context
         • isDistractive: is it distractive as an activity?
-        • summary: from the first activity
-        • title : title will be based on summary. it will be extremely brief and an overview of what the task was. Examples: "Youtube - Gaming", "Google Docs - Project Report", "Gmail - Inbox", "Twitter Feed", "Online Course - Web Developer", "YouTube - Educational"
+        • title : The action itself. (Examples:  "Youtube - Gaming", "Google Docs - Project Report")
     • distraction_loops: any sequence of tasks or websites which seem to be a common recurrence and are mostly distractions, for example Google Docs -> YouTube could be a common occurence, or Netflix -> YouTube can be a common transition which is mostly distraction too. Feel free to include upto 3 distraction loops. Do NOT include vague/umbrella terms like "Entertainment", "Work", "Study". Do not include loops that ONLY contain non-distractive activities. At least both or the second activity of each loop needs to be a distractive activity.
     • suggestions: 2-3 action tips to improve focus
     Make sure to NOT include entries with a duration_min value lesser than 3!
