@@ -4,7 +4,7 @@ from pathlib import Path
 import datetime
 def update_metrics(input_path, output_path):
     # 1. Set up Gemini API
-    genai.configure(api_key="AIzaSyChVe6HRoHi9GFVUW27jXQ3BmLtJJAbJ4w")
+    genai.configure(api_key="")
 
     #model = genai.GenerativeModel("gemini-2.0-flash")
     model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
