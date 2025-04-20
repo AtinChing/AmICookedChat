@@ -1,0 +1,413 @@
+
+[
+  [
+    {
+      "summary": "User is interacting with a temporary ChatGPT session, likely exploring its capabilities for tasks like image creation, writing, summarizing, or seeking advice.",
+      "mental_context": "neutral",
+      "timestamp": "2025-04-20T00:05:04.024677",
+      "tab_title": "ChatGPT",
+      "tab_url": "https://chatgpt.com/",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is interacting with ChatGPT in a temporary chat session, exploring its capabilities like image creation, writing assistance, summarization, and advice.",
+      "mental_context": "neutral",
+      "timestamp": "2025-04-20T00:05:08.532182",
+      "tab_title": "ChatGPT",
+      "tab_url": "https://chatgpt.com/",
+      "isDistractive": false
+    },
+    {
+      "summary": "The user is interacting with ChatGPT, possibly exploring its features like image creation, writing assistance, text summarization, or seeking advice.",
+      "mental_context": "neutral",
+      "timestamp": "2025-04-20T00:05:09.278493",
+      "tab_title": "ChatGPT",
+      "tab_url": "https://chatgpt.com/",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is interacting with a temporary ChatGPT session, exploring its capabilities such as image creation, writing assistance, text summarization, and advice seeking.",
+      "mental_context": "neutral",
+      "timestamp": "2025-04-20T00:07:02.974891",
+      "tab_title": "ChatGPT",
+      "tab_url": "https://chatgpt.com/",
+      "isDistractive": false
+    }
+  ],
+  [
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation based on computer usage data to provide insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:07:05.471539",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is working on a hackathon project to build an attention split tracker that analyzes task switching and provides insights into mental fragmentation.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:08:01.717770",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze task switching behavior for productivity and focus improvement.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:08:13.452743",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various computer activities and providing insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:08:17.693425",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is planning a hackathon project to track and analyze attention fragmentation using system monitoring and data visualization.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:08:24.362624",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is creating a roadmap for a hackathon project that aims to track and analyze a user's attention split across different tasks and applications.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:15:22.981436",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various computer activities like browser history, app switching, and clipboard usage to provide insights into focus patterns.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:15:31.866617",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation based on computer activity like app switching and browser history to provide insights into focus patterns.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:15:32.905807",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is brainstorming and creating a roadmap for a hackathon project that analyzes and visualizes attention fragmentation and task switching.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:15:38.906718",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a system to track and analyze attention switching behaviors using various data sources like browser history, system hooks, and clipboard events to provide insights into focus patterns.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:15:46.648132",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze their task switching habits to improve focus.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:15:49.625652",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation, likely for a hackathon.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:16:33.301084",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various data sources like browser history, system events, and clipboard activity to provide insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:18:18.125591",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is designing a roadmap for a hackathon project that tracks attention fragmentation and provides insights into task-switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:18:34.391407",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring computer activity and providing insights into task switching habits.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:18:35.946803",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various data sources like browser history, system events, and clipboard activity.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:19:01.205882",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring system activities like app switching, browser history, and clipboard usage.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:19:22.164265",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring app usage, browser history, and system events to provide insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:19:34.267046",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze their task-switching behavior throughout the day, aiming to improve focus and productivity.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:19:45.758215",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention switching behavior by monitoring browser history, system events, and clipboard activity to provide insights into focus and productivity.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:20:45.971736",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring system activity and providing insights into task switching patterns.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:20:49.963800",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a hackathon project that analyzes and visualizes a user's task-switching behavior to provide insights into their focus and mental fragmentation.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T00:21:53.605443",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation based on system and browser data to provide insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:20:40.772528",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation based on system data, browser history, and app usage.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:23:09.694647",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is brainstorming and developing a roadmap for a hackathon project that analyzes attention fragmentation.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:27:49.049677",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze task switching behavior to provide insights into focus and productivity.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:29:15.002738",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is designing a roadmap for a hackathon project to track and analyze attention fragmentation.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:29:23.708118",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze a user's attention span and task switching habits, potentially for a hackathon.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:29:28.559528",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is building a roadmap for a hackathon project to track and analyze attention fragmentation using system and browser data.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:29:35.789562",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring computer usage patterns and providing insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:33:45.398497",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention splits by monitoring user activity across applications and systems.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T03:33:58.359044",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring app usage, browser history, and system events to provide insights into task switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:26:17.782126",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a system to track and analyze a person's task-switching behavior to provide insights into their focus and productivity.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:27:17.465336",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is building a roadmap/pipeline for a hackathon project called \"Attention Split Analyzer\" that tracks task switching and provides insights into user's focus and distractions.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:27:22.216928",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is brainstorming and outlining a roadmap for a hackathon project called \"Attention Split Analyzer\" that tracks task switching and provides insights into focus patterns.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:27:49.637493",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring app usage, browser history, and other system events.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:27:52.244983",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a system to track and analyze attention fragmentation by monitoring various computer activities like browser history, app switching, and clipboard usage, aiming to provide insights into focus patterns.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:27:55.549818",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring computer usage patterns, aiming to provide insights into task-switching behavior.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:29:59.522065",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is working on a hackathon project called \"Attention Split Analyzer\" that tracks and analyzes task switching using system and browser data to provide insights into focus and distraction.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:30:40.997435",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a system to track and analyze attention switching and task fragmentation using computer data sources, with the aim of providing insights into focus and potential distractions.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:30:46.737119",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring system activity like app/tab switching, clipboard usage, and file opens.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:31:26.948479",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring computer activity to provide insights into task switching and focus.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:31:42.779024",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is developing a hackathon project to track and analyze attention fragmentation by monitoring computer activity and providing insights on focus and distractions.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T04:32:40.519603",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false
+    }
+  ],
+  [
+    {
+      "summary": "The user is on a Stack Overflow page titled \"python - Both json.load and json.loads is unable to load my jsonl file,\" likely seeking help with a programming problem.",
+      "mental_context": "study",
+      "timestamp": "2025-04-20T00:19:06.844169",
+      "tab_title": "python - Both json.load and json.loads is unable to load my jsonl file - Stack Overflow",
+      "tab_url": "https://stackoverflow.com/questions/54501454/both-json-load-and-json-loads-is-unable-to-load-my-jsonl-file",
+      "isDistractive": false
+    },
+    {
+      "summary": "The user is researching the differences between JSON and JSONL data formats using a search engine.",
+      "mental_context": "study",
+      "timestamp": "2025-04-20T00:19:08.777979",
+      "tab_title": "json vs jsonl - Google Search",
+      "tab_url": "https://www.google.com/search?q=json+vs+jsonl&sca_esv=d8f8ca26d9b374a1&ei=OogEaNCqCerJ0PEP3Nrt-AM&ved=0ahUKEwjQr6W98uWMAxXqJDQIHVxtGz8Q4dUDCBA&uact=5&oq=json+vs+jsonl&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWpzb24gdnMganNvbmwyCxAAGIAEGJECGIoFMgUQABiABDIFEAAYgAQyBxAAGIAEGAoyBxAAGIAEGAoyBhAAGBYYHjIGEAAYFhgeMggQABgWGAoYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFSLUQUIkCWM4OcAF4AZABAJgBiQOgAaIJqgEHNi4xLjEuMbgBA8gBAPgBAZgCCqACzgnCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDRAAGIAEGLEDGEMYigXCAgoQABiABBhDGIoFwgIIEAAYgAQYsQOYAwCIBgGQBgqSBwc3LjEuMS4xoAfVLLIHBzYuMS4xLjG4B8oJ&sclient=gws-wiz-serp",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is researching the differences between JSON and JSONL formats using Google Search.",
+      "mental_context": "study",
+      "timestamp": "2025-04-20T00:19:09.952419",
+      "tab_title": "json vs jsonl - Google Search",
+      "tab_url": "https://www.google.com/search?q=json+vs+jsonl&sca_esv=d8f8ca26d9b374a1&ei=OogEaNCqCerJ0PEP3Nrt-AM&ved=0ahUKEwjQr6W98uWMAxXqJDQIHVxtGz8Q4dUDCBA&uact=5&oq=json+vs+jsonl&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWpzb24gdnMganNvbmwyCxAAGIAEGJECGIoFMgUQABiABDIFEAAYgAQyBxAAGIAEGAoyBxAAGIAEGAoyBhAAGBYYHjIGEAAYFhgeMggQABgWGAoYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFSLUQUIkCWM4OcAF4AZABAJgBiQOgAaIJqgEHNi4xLjEuMbgBA8gBAPgBAZgCCqACzgnCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDRAAGIAEGLEDGEMYigXCAgoQABiABBhDGIoFwgIIEAAYgAQYsQOYAwCIBgGQBgqSBwc3LjEuMS4xoAfVLLIHBzYuMS4xLjG4B8oJ&sclient=gws-wiz-serp",
+      "isDistractive": false
+    },
+    {
+      "summary": "User is researching the differences between JSON and JSONL data formats using Google Search.",
+      "mental_context": "study",
+      "timestamp": "2025-04-20T00:19:18.441478",
+      "tab_title": "json vs jsonl - Google Search",
+      "tab_url": "https://www.google.com/search?

@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 from scripts.topic_classification import classify
 from scripts.metric_calculation import update_metrics
-from scripts.complex_grouping import llm_group_entries
+import scripts.complex_grouping as grouping
 import asyncio
 
 
@@ -26,8 +26,8 @@ async def log_tab_data(data : Data, background_tasks: BackgroundTasks):
     try:
         
         #print("Received log:", data)
-        time.sleep(1) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT t
-        res = classify(html_content=data["html_content"], title=data["tab_title"], url=data["tab_url"])
+        time.sleep(1) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT live streaming
+        res = classify(html_content=data.html_content, title=data.tab_title, url=data.tab_url)
         # Append to file as JSON Lines
         with open(LOG_FILE, "a") as f:
             f.write(json.dumps(res) + "\n")
@@ -35,24 +35,40 @@ async def log_tab_data(data : Data, background_tasks: BackgroundTasks):
         print("❌ ERROR writing log:", str(e))
         return {"status": "error", "message": str(e)}, 500
     return {"status": "ok"}
-# for stage 1 - 2
-input_path = "data/classification.jsonl"  # replace with your path
+
+
+def group_data():
+    input_path = "data/classification.jsonl"  # replace with your path
     output_path = "data/stage2_grouped_complex.json"
+    grouping.group(input_path, output_path)
+    open(input_path, "w").close() # clear the file
+
+def calculate_metrics():
+    input_path = "data/stage2_grouped_complex.json"
+    output_path = "data/atin_stage3.json"
+    update_metrics(input_path, output_path)
+    #open(input_path, "w").close() # clear the file
+    
+
 @app.on_event("startup")
 async def start_background_jobs():
     asyncio.create_task(schedule_stage1_to_2())
     asyncio.create_task(schedule_stage2_to_3())
 
-async def schedule_stage1_to_2():
+async def schedule_stage1_to_2(): # grouping
     while True:
-        run_stage1_to_stage2()
+        group_data()
         await asyncio.sleep(60)  # every 1 min
 
-async def schedule_stage2_to_3():
+async def schedule_stage2_to_3(): # metric calculation
     while True:
-        run_stage2_to_stage3()
+        try:
+            calculate_metrics()
+        except Exception as e:
+            print(f"❌ Stage 2→3 task error: {e}")
         await asyncio.sleep(180)  # every 3 min (or pick between 120–300)
 
 
 if __name__ == "__main__":
-    app.run(port=5001)
+    import uvicorn
+    uvicorn.run("server:app", host="127.0.0.1", port=5001, reload=True)
