@@ -1,0 +1,141 @@
+{
+    "summary": "The user is seeing a \"Service Not Allowed\" page from Google, indicating they lack access to AI Studio, likely due to organizational restrictions or account issues.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:19:38.992725",
+    "tab_title": "Service Not Allowed",
+    "tab_url": "https://admin.google.com/ServiceNotAllowed?application=151518919664&source=scrip&continue=https://aistudio.google.com/app/apikey",
+    "isDistractive": false
+}{
+    "summary": "User is filling out a student talent form for Fidelity.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:19:39.535921",
+    "tab_title": "Student Talent Form",
+    "tab_url": "https://talentcommunity.fidelity.com/flows/early-in-career-talent-form?source=MLH",
+    "isDistractive": false
+}{
+    "summary": "The user is viewing a Jupyter Notebook on GitHub that explores using Google's GenAI API and PRAW to classify Reddit posts, suggesting they are studying or working on a machine learning project.",
+    "mental_context": "study",
+    "timestamp": "2025-04-19T21:19:40.461132",
+    "tab_title": "ai-test/AI_Applications.ipynb at main \u00b7 AtinChing/ai-test",
+    "tab_url": "https://github.com/AtinChing/ai-test/blob/main/AI_Applications.ipynb",
+    "isDistractive": false
+}{
+    "summary": "User is researching the costs associated with Google Gemini.",
+    "mental_context": "study",
+    "timestamp": "2025-04-19T21:19:42.852826",
+    "tab_title": "gemini costs - Google Search",
+    "tab_url": "https://www.google.com/search?q=gemini+costs&oq=gemini+costs&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIJCAQQABgKGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAEMgcICBAAGIAEMgYICRAuGEDSAQgxNzc3ajBqMagCALACAA&sourceid=chrome&ie=UTF-8",
+    "isDistractive": false
+}{
+    "summary": "User is viewing the README.md file for the AmICookedChat project on GitHub.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:19:42.994135",
+    "tab_title": "AmICookedChat/README.md at main \u00b7 AtinChing/AmICookedChat",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/blob/main/README.md",
+    "isDistractive": false
+}{
+    "summary": "User is researching how to access Chrome DevTools for a Chrome extension.",
+    "mental_context": "study",
+    "timestamp": "2025-04-19T21:20:16.868129",
+    "tab_title": "how to access chrome devtools chrome extension - Google Search",
+    "tab_url": "https://www.google.com/search?q=how+to+access+chrome+devtools+chrome+extension&sca_esv=c3de69e60dd6b478&ei=Z2UEaJJWqL_Q8Q_t1IKwCg&ved=0ahUKEwjSpZyi0eWMAxWoHzQIHW2qAKYQ4dUDCBI&uact=5&oq=how+to+access+chrome+devtools+chrome+extension&gs_lp=Egxnd3Mtd2l6LXNlcnAiLmhvdyB0byBhY2Nlc3MgY2hyb21lIGRldnRvb2xzIGNocm9tZSBleHRlbnNpb24yBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIEMggQABiiBBiJBTIFEAAY7wUyCBAAGIAEGKIESN4bUO8BWKUbcAF4AZABAZgBxQGgAYkOqgEDOC44uAEDyAEA-AEBmAIQoAKZDcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwM3LjmgB4GHAbIHAzYuObgHkw0&sclient=gws-wiz-serp",
+    "isDistractive": false
+}{
+    "summary": "User is contributing to a project on GitHub, which involves tracking browser activity and developing strategies for managing productivity.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:21:45.364344",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat",
+    "isDistractive": false
+}{
+    "summary": "User is viewing a Jupyter Notebook on GitHub about building a Reddit post classifier with weak supervision using Google AI's genai API.",
+    "mental_context": "study",
+    "timestamp": "2025-04-19T21:21:46.478708",
+    "tab_title": "ai-test/AI_Applications.ipynb at main \u00b7 AtinChing/ai-test",
+    "tab_url": "https://github.com/AtinChing/ai-test/blob/main/AI_Applications.ipynb",
+    "isDistractive": false
+}{
+    "summary": "User is searching for information on how to access Chrome DevTools for Chrome extensions, likely for debugging or development purposes.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:22:16.519901",
+    "tab_title": "how to access chrome devtools chrome extension - Google Search",
+    "tab_url": "https://www.google.com/search?q=how+to+access+chrome+devtools+chrome+extension&sca_esv=c3de69e60dd6b478&ei=Z2UEaJJWqL_Q8Q_t1IKwCg&ved=0ahUKEwjSpZyi0eWMAxWoHzQIHW2qAKYQ4dUDCBI&uact=5&oq=how+to+access+chrome+devtools+chrome+extension&gs_lp=Egxnd3Mtd2l6LXNlcnAiLmhvdyB0byBhY2Nlc3MgY2hyb21lIGRldnRvb2xzIGNocm9tZSBleHRlbnNpb24yBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyCBAAGIAEGKIEMggQABiiBBiJBTIFEAAY7wUyCBAAGIAEGKIESN4bUO8BWKUbcAF4AZABAZgBxQGgAYkOqgEDOC44uAEDyAEA-AEBmAIQoAKZDcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwM3LjmgB4GHAbIHAzYuObgHkw0&sclient=gws-wiz-serp",
+    "isDistractive": false
+}{
+    "summary": "The user is managing API keys in Google AI Studio's dashboard.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:26:39.570876",
+    "tab_title": "Get API key | Google AI Studio",
+    "tab_url": "https://aistudio.google.com/app/u/1/apikey",
+    "isDistractive": false
+}{
+    "summary": "User is reading the technical documentation for the `GenerateContentResponse` object in the Google Cloud Vertex AI service.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:26:41.168233",
+    "tab_title": "GenerateContentResponse \u00a0|\u00a0 Vertex AI \u00a0|\u00a0 Google Cloud",
+    "tab_url": "https://cloud.google.com/vertex-ai/docs/reference/rest/v1/GenerateContentResponse",
+    "isDistractive": false
+}{
+    "summary": "User is viewing and potentially working on an AI application development notebook in GitHub, experimenting with PRAW and Google's generative AI.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:26:59.128200",
+    "tab_title": "ai-test/AI_Applications.ipynb at main \u00b7 AtinChing/ai-test",
+    "tab_url": "https://github.com/AtinChing/ai-test/blob/main/AI_Applications.ipynb",
+    "isDistractive": false
+}{
+    "summary": "User is browsing GitHub repository 'AmICookedChat', which is a project for HackDavis 2025.",
+    "mental_context": "neutral",
+    "timestamp": "2025-04-19T21:37:43.834449",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat",
+    "isDistractive": false
+}{
+    "summary": "User is viewing code from the repository \"AmICookedChat\" on GitHub.",
+    "mental_context": "neutral",
+    "timestamp": "2025-04-19T21:39:49.593493",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/tree/main",
+    "isDistractive": false
+}{
+    "summary": "User is viewing the code repository for a HackDavis 2025 project called AmICookedChat.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:40:52.362004",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/tree/main",
+    "isDistractive": false
+}{
+    "summary": "User is browsing the source code of their private github repository named 'AmICookedChat'.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:45:53.704604",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/tree/main",
+    "isDistractive": false
+}{
+    "summary": "The user is browsing the GitHub repository \"AmICookedChat\", which is a project for HackDavis 2025 that is still under development.",
+    "mental_context": "neutral",
+    "timestamp": "2025-04-19T21:46:13.193964",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/tree/main",
+    "isDistractive": false
+}{
+    "summary": "User is browsing a code repository on Github.",
+    "mental_context": "neutral",
+    "timestamp": "2025-04-19T21:47:17.785710",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/tree/main",
+    "isDistractive": false
+}{
+    "summary": "User is viewing a Jupyter Notebook on GitHub about using PRAW to collect Reddit data and Google AI's genai to classify posts, implying they are likely studying or working on an AI/data science project.",
+    "mental_context": "study",
+    "timestamp": "2025-04-19T21:47:44.913490",
+    "tab_title": "ai-test/AI_Applications.ipynb at main \u00b7 AtinChing/ai-test",
+    "tab_url": "https://github.com/AtinChing/ai-test/blob/main/AI_Applications.ipynb",
+    "isDistractive": false
+}{
+    "summary": "The user is viewing code and files for the AmICookedChat repository on GitHub.",
+    "mental_context": "work",
+    "timestamp": "2025-04-19T21:47:45.521096",
+    "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+    "tab_url": "https://github.com/AtinChing/AmICookedChat/tree/main",
+    "isDistractive": false
+}

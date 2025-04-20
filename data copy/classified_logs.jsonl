@@ -1,0 +1,20 @@
+{
+    "summary": "The user is watching a Sidemen Among Us video on YouTube for entertainment.",
+    "mental_context": "entertainment",
+    "isProductive": false
+}
+{
+    "summary": "The user is collaborating on a Google Docs document, likely related to HackDavis, involving discussions, note-taking (potentially AI-assisted with Gemini), and brainstorming ideas, potentially for resume building.",
+    "mental_context": "work",
+    "isProductive": false
+}
+{
+    "summary": "User is reviewing the data stages and project details for the AmICookedChat HackDavis 2025 project on GitHub.",
+    "mental_context": "work",
+    "isProductive": false
+}
+{
+    "summary": "User is learning about or using a mental clarity tool called MindMend.ai.",
+    "mental_context": "study",
+    "isProductive": false
+}
