@@ -24,13 +24,30 @@ class Data(BaseModel):
 @app.post("/log")
 async def log_tab_data(data : Data, background_tasks: BackgroundTasks):
     try:
-        
+        if os.path.exists(LOG_FILE):
+            with open(LOG_FILE, "r") as f:
+                lines = f.readlines()
+        else:
+            lines = []
+
+        # Update the *last* entry with end_timestamp = this entry's timestamp
+        if lines:
+            last_entry = json.loads(lines[-1])
+            last_entry["end_timestamp"] = data.timestamp.isoformat()
+            duration = (datetime.fromisoformat(last_entry["end_timestamp"]) - datetime.fromisoformat(last_entry["timestamp"])).total_seconds() / 60
+            last_entry["duration"] = round(duration, 2)
+            lines[-1] = json.dumps(last_entry) + "\n"
         #print("Received log:", data)
         time.sleep(1) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT live streaming
         res = classify(html_content=data.html_content, title=data.tab_title, url=data.tab_url)
+        lines.append(json.dumps(res) + "\n") # new final log output
+
         # Append to file as JSON Lines
-        with open(LOG_FILE, "a") as f:
-            f.write(json.dumps(res) + "\n")
+        #with open(LOG_FILE, "a") as f:
+        #    f.write(json.dumps(res) + "\n")
+        with open(LOG_FILE, "w") as f:
+            f.writelines(lines)
+
     except Exception as e:
         print("❌ ERROR writing log:", str(e))
         return {"status": "error", "message": str(e)}, 500

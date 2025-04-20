@@ -10,7 +10,8 @@ import os
 def load_stage1_jsonl(file_path):
     """Load stage 1 JSONL file assuming valid newline-delimited JSON objects."""
     raw = Path(file_path).read_text()
-
+    if len(raw) == 0:
+        return ""
     # Try to split between closing and opening braces only when they are flush together (e.g. }{)
     fixed_raw = raw.replace('}{', '}\n{')
     fixed = []
@@ -104,6 +105,9 @@ def group(input_path, output_path):
     
 
     stage1_data = load_stage1_jsonl(input_path)
+    if stage1_data == "":
+        print("No activities to group atm!")
+        return
     #rule_based_groups = group_stage1_data(stage1_data)
     smart_groups = llm_group_entries(stage1_data)
     write_stage2_json(smart_groups, output_path)

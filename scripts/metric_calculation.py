@@ -6,12 +6,14 @@ def update_metrics(input_path, output_path):
     # 1. Set up Gemini API
     genai.configure(api_key="AIzaSyChVe6HRoHi9GFVUW27jXQ3BmLtJJAbJ4w")
 
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    #model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
 
     # 2. Read the JS/JSON file
     with open(input_path, "r") as f:
         js_data = f.read()
     if len(js_data)==0: # empty file, dont update metrics
+        print("No grouped data exists to use to determine metrics atm.")
         return
     # 3. Prepare prompt
     prompt = f"""
