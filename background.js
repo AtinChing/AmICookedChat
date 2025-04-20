@@ -1,22 +1,30 @@
 async function sendToBackend(tab) {
-    // data format
-    const data = {
-      timestamp: new Date().toISOString(),
-      tab_title: tab.title,
-      tab_url: tab.url,
-      event_type: "tab_switch"
-    };
-    
-    console.log("Sending:", data);
-  // send data to python script running on the machine
-    fetch("http://127.0.0.1:5000/log", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data)
+  chrome.scripting.executeScript({
+    target: { tabId: tab.id },
+    files: ["content.js"]
+  }, () => {
+    chrome.tabs.sendMessage(tab.id, { command: "getHTML" }, async (response) => {
+      const data = {
+        timestamp: new Date().toISOString(),
+        tab_title: tab.title,
+        tab_url: tab.url,
+        html_content: response?.html || "",
+        event_type: "tab_switch"
+      };
+
+      console.log("Sending to backend:", data);
+
+      fetch("http://127.0.0.1:5001/log", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+      });
     });
-  }
+  });
+}
+
   
   // tab switch event
   chrome.tabs.onActivated.addListener(async (activeInfo) => {
