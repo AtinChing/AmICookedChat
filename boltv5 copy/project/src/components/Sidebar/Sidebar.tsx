@@ -15,13 +15,14 @@ const Sidebar: React.FC = () => {
           </h1>
         </div>
 
-        {/* Profile */}
+        <div className="animate-fadeIn">
         <ProfileSection />
+        </div>
 
         {/* Stats Prompt */}
-        <div className="text-center space-y-2">
+        <div className="text-center space-y-2 animate-fadeIn" style={{ animationDelay: '0.3s', animationFillMode: 'both' }}>
           <p className="text-base text-black/70 font-medium">Check your stats!</p>
-          <div className="text-3xl text-black/30 animate-fadeIn">→</div>
+          <div className="text-3xl text-black/30">→</div>
         </div>
       </div>
 
