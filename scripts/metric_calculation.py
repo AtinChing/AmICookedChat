@@ -8,7 +8,7 @@ genai.configure(api_key="AIzaSyChVe6HRoHi9GFVUW27jXQ3BmLtJJAbJ4w")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 # 2. Read the JS/JSON file
-with open("stage2_grouped_blocks.json", "r") as f:
+with open("data/stage2_grouped_complex.json", "r") as f:
     js_data = f.read()
 
 # 3. Prepare prompt
@@ -32,7 +32,7 @@ Generate the following fields in JSON format:
   • duration_min: duration in minutes
   • context: mental_context
   • summary: from the first activity
-• distraction_loops: any sequence like distraction → work → distraction
+• distraction_loops: any sequence of tasks or websites which seem to be a common recurrence and are mostly distractions, for example Google Docs -> YouTube could be a common occurence, or Netflix -> YouTube can be a common transition which is mostly distraction too. Feel free to include upto 3 distraction loops
 • suggestions: 3 action tips to improve focus
 
 Only return valid JSON. Do not include explanation or prose.
@@ -49,7 +49,7 @@ try:
     response_text = response_text.replace('```json', '').replace('```', '')
     stage3_summary = json.loads(response_text)
     print(json.dumps(stage3_summary, indent=2))
-    with open("stage3.json", "w") as f:
+    with open("data/atin_stage3.json", "w") as f:
         json.dump(stage3_summary, f, indent=2)
 
 except json.JSONDecodeError:
