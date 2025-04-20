@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Play, StopCircle } from 'lucide-react';
 import { useAuth0 } from '@auth0/auth0-react';
 import AlertBanner from './AlertBanner';
@@ -13,46 +13,9 @@ const MainPanel: React.FC = () => {
   const [isTracking, setIsTracking] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // Check initial status when component mounts
-  useEffect(() => {
-    checkTrackingStatus();
-  }, []);
-
-  const checkTrackingStatus = async () => {
-    try {
-      const response = await fetch('http://localhost:5001/status');
-      const data = await response.json();
-      setIsTracking(data.is_tracking);
-    } catch (error) {
-      console.error('Error checking status:', error);
-      setError('Failed to connect to server');
-    }
-  };
-
-  const toggleTracking = async () => {
-    try {
-      setError(null);
-      const endpoint = isTracking ? 'stop' : 'start';
-      const response = await fetch(`http://localhost:5001/${endpoint}`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      });
-
-      const data = await response.json();
-      
-      if (data.status === 'success') {
-        setIsTracking(!isTracking);
-        console.log(`Server ${endpoint}ed successfully`);
-      } else {
-        setError(data.message);
-        console.error(`Failed to ${endpoint} server:`, data.message);
-      }
-    } catch (error) {
-      setError(`Failed to ${isTracking ? 'stop' : 'start'} tracking`);
-      console.error('Error:', error);
-    }
+  const toggleTracking = () => {
+    setError(null);
+    setIsTracking(!isTracking);
   };
 
   return (
