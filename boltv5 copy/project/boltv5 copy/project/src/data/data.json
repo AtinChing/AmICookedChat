@@ -1,0 +1,28 @@
+{
+  "mental_clarity_score": 0.77,
+  "current_activity": "The user is on YouTube, potentially about to watch or is currently watching a Fortnite Galactic Battle Teaser Trailer.",
+  "tab_switch_count": 11,
+  "focus_blocks": 0,
+  "deep_work_minutes": 0.05,
+  "breaks": 2,
+  "focus_timeline": [
+    {
+      "start": "2025-04-20T07:03:37.352616",
+      "end": "2025-04-20T07:09:09.158356",
+      "duration_min": 5.37,
+      "context": "distraction",
+      "isDistractive": true,
+      "summary": "The user is frequently switching between various apps and websites like Google Search, GitHub, ChatGPT and YouTube, indicating a tendency to get distracted.",
+      "title": "MindMend.ai - Distraction Analysis"
+    }
+  ],
+  "distraction_loops": [
+    "Devpost -> MindMend.ai",
+    "MindMend.ai -> YouTube"
+  ],
+  "suggestions": [
+    "Minimize switching between productive tasks and distracting sites to improve focus.",
+    "Consider time-blocking techniques to allocate specific periods for focused work and breaks.",
+    "Identify triggers for frequent task switching and develop strategies to stay on task longer."
+  ]
+}
