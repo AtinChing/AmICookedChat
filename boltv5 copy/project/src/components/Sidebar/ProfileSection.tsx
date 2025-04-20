@@ -2,11 +2,14 @@ import React from 'react';
 import { User } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { useUser } from '../../hooks/useUser';
+import { mockUserData } from '../../data/mockData';
+
+const { clarityScore } = mockUserData;
 
 const ProfileSection: React.FC = () => {
   const { t } = useLanguage();
   const { firstName, picture } = useUser();
-  const clarityScore = 40; // This should eventually come from your actual user data
+  clarityScore; // This should eventually come from your actual user data
 
   return (
     <div className="flex items-center p-4 mb-6 bg-opacity-10 bg-purple-400 rounded-lg">
