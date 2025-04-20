@@ -1,39 +1,41 @@
 import React from 'react';
-import { TrendingUp, AlertCircle } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 import { mockUserData } from '../../data/mockData';
 
 const DistractionPatterns: React.FC = () => {
-  const { activities } = mockUserData;
+  const { focus_timeline } = mockUserData;
 
-  // Group distractive activities by name and accumulate total duration
-  const distractorMap = activities
-    .filter((activity) => activity.isDistractive)
-    .reduce<Record<string, { name: string; duration: number; count: number }>>((acc, activity) => {
-      if (!acc[activity.name]) {
-        acc[activity.name] = { name: activity.name, duration: 0, count: 0 };
-      }
-      acc[activity.name].duration += activity.duration;
-      acc[activity.name].count += 1;
-      return acc;
-    }, {});
+  // Group distractive activities by context and accumulate duration
+  const distractorMap = focus_timeline
+    .filter((entry) => entry.isDistractive)
+    .reduce<Record<string, { context: string; duration: number; count: number }>>(
+      (acc, entry) => {
+        if (!acc[entry.context]) {
+          acc[entry.context] = { context: entry.context, duration: 0, count: 0 };
+        }
+        acc[entry.context].duration += entry.duration_min;
+        acc[entry.context].count += 1;
+        return acc;
+      },
+      {}
+    );
 
-  // Transform map into array with extra visual properties
+  // Transform map into array with visual properties
   const distractors = Object.values(distractorMap)
     .map((entry) => {
       const percentage = Math.min(100, Math.round((entry.duration / 60) * 100));
-      const impact =
-        percentage > 80 ? 'High' : percentage > 50 ? 'Medium' : 'Low';
+      const impact = percentage > 80 ? 'High' : percentage > 50 ? 'Medium' : 'Low';
 
-      const icon = entry.name.toLowerCase().includes('youtube')
+      const icon = entry.context.toLowerCase().includes('entertainment')
         ? '📺'
-        : entry.name.toLowerCase().includes('reddit')
+        : entry.context.toLowerCase().includes('social')
         ? '🤖'
-        : entry.name.toLowerCase().includes('instagram')
-        ? '📸'
+        : entry.context.toLowerCase().includes('communication')
+        ? '📱'
         : '💻';
 
       return {
-        name: entry.name,
+        name: entry.context,
         icon,
         time: `${Math.round(entry.duration)} mins`,
         impact,
@@ -41,7 +43,7 @@ const DistractionPatterns: React.FC = () => {
       };
     })
     .sort((a, b) => b.percentage - a.percentage)
-    .slice(0, 3); // Top 3
+    .slice(0, 3);
 
   return (
     <div className="bg-rose-400 rounded-3xl p-8 text-white shadow-lg">
@@ -74,17 +76,6 @@ const DistractionPatterns: React.FC = () => {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="mt-6 bg-rose-500 rounded-2xl p-4">
-        <div className="flex items-center gap-2 mb-2">
-          <AlertCircle size={20} />
-          <span className="font-bold">Last Distraction Pattern:</span>
-        </div>
-        <p>Google Docs → YouTube (15 mins ago)</p>
-        <p className="text-sm mt-2 text-rose-100">
-          This happens most often around 2pm 🕑
-        </p>
       </div>
     </div>
   );
