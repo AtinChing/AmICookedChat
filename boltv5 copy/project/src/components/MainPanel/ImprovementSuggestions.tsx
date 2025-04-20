@@ -1,7 +1,10 @@
 import React from 'react';
 import { Lightbulb, Clock, Shield } from 'lucide-react';
+import { mockUserData } from '../../data/mockData';
 
 const ImprovementSuggestions: React.FC = () => {
+  const { suggestions, distraction_loops } = mockUserData;
+
   return (
     <div className="bg-indigo-500 rounded-3xl p-8 text-white shadow-lg">
       <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
@@ -13,28 +16,25 @@ const ImprovementSuggestions: React.FC = () => {
         <div className="bg-indigo-400 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-3">
             <Clock size={20} />
-            <span className="font-bold">Time Check</span>
+            <span className="font-bold">Common Patterns</span>
           </div>
           <ul className="space-y-3 text-indigo-100">
-            <li>• Let's spend less time on YouTube around 2pm</li>
-            <li>• You switched apps/tabs every ~90s on average</li>
-            <li>• You've never worked more than 7 min without switching today</li>
+            {distraction_loops?.map((loop, index) => (
+              <li key={index}>• {loop}</li>
+            ))}
           </ul>
         </div>
 
         <div className="bg-indigo-400 rounded-2xl p-6">
           <div className="flex items-center gap-2 mb-3">
             <Shield size={20} />
-            <span className="font-bold">Suggested Actions</span>
+            <span className="font-bold">Suggestions</span>
           </div>
-          <div className="space-y-3">
-            <button className="w-full bg-white text-indigo-600 rounded-xl py-2 font-medium hover:bg-indigo-50 transition-colors">
-              Block Social Media (2pm - 4pm)
-            </button>
-            <button className="w-full bg-white text-indigo-600 rounded-xl py-2 font-medium hover:bg-indigo-50 transition-colors">
-              Start 25min Focus Session
-            </button>
-          </div>
+          <ul className="space-y-3 text-indigo-100">
+            {suggestions?.map((suggestion, index) => (
+              <li key={index}>• {suggestion}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

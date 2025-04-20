@@ -2,11 +2,12 @@ import React from 'react';
 import { User } from 'lucide-react';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { useUser } from '../../hooks/useUser';
+import { mockUserData } from '../../data/mockData';
 
 const ProfileSection: React.FC = () => {
   const { t } = useLanguage();
   const { firstName, picture } = useUser();
-  const clarityScore = 40; // This should eventually come from your actual user data
+  const clarityScore = Math.round(mockUserData.mental_clarity_score * 100);
 
   return (
     <div className="flex items-center p-4 mb-6 bg-opacity-20 bg-white rounded-lg">
@@ -30,7 +31,7 @@ const ProfileSection: React.FC = () => {
               className="h-full rounded-full" 
               style={{ 
                 width: `${clarityScore}%`, 
-                backgroundColor: clarityScore > 60 ? '#4ADE80' : clarityScore > 30 ? '#FBBF24' : '#F87171' 
+                backgroundColor: clarityScore > 70 ? '#4ADE80' : clarityScore > 40 ? '#FBBF24' : '#F87171' 
               }}
             ></div>
           </div>

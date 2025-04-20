@@ -5,10 +5,11 @@ import { mockUserData } from '../../data/mockData';
 
 const MentalClarityScore: React.FC = () => {
   const { clarityScore } = mockUserData;
+  const score = Math.round(mockUserData.mental_clarity_score * 100);
   
   const getCookedStatus = () => {
-    if (clarityScore > 70) return { status: 'Fresh', emoji: '🧊', color: 'bg-green-400' };
-    if (clarityScore > 40) return { status: 'Medium', emoji: '🫠', color: 'bg-amber-400' };
+    if (score > 70) return { status: 'Fresh', emoji: '🧊', color: 'bg-green-400' };
+    if (score > 40) return { status: 'Medium', emoji: '🫠', color: 'bg-amber-400' };
     return { status: 'Fried', emoji: '🍳', color: 'bg-red-400' };
   };
 
@@ -32,15 +33,16 @@ const MentalClarityScore: React.FC = () => {
               <span className={`px-2 py-1 rounded-full text-xs font-medium ${statusInfo.color} text-white`}>
                 {statusInfo.status}
               </span>
-              <span className="text-3xl font-bold">{clarityScore}%</span>
+              <span className="text-3xl font-bold">{score}%</span>
             </div>
           </div>
-          <div className="h-3 bg-violet-400 rounded-full overflow-hidden">
+          <div className="h-2 bg-gray-300 rounded-full overflow-hidden">
             <div 
-              className={`h-full transition-all duration-500 ease-out ${
-                clarityScore > 70 ? 'bg-green-400' : clarityScore > 40 ? 'bg-amber-400' : 'bg-red-400'
-              }`}
-              style={{ width: `${clarityScore}%` }}
+              className="h-full rounded-full transition-all duration-500 ease-out"
+              style={{ 
+                width: `${score}%`,
+                backgroundColor: score > 70 ? '#4ADE80' : score > 40 ? '#FBBF24' : '#F87171'
+              }}
             />
           </div>
         </div>
@@ -54,16 +56,16 @@ const MentalClarityScore: React.FC = () => {
           <div className="space-y-3 text-violet-100">
             <p className="flex items-center gap-2">
               <Flame size={16} className="text-orange-400" />
-              Switched apps {mockUserData.activities.length} times in the last hour
+              Switched apps {mockUserData.tab_switch_count} times in the last hour
             </p>
             <p className="flex items-center gap-2">
               <AlertTriangle size={16} className="text-yellow-400" />
-              Longest focus streak: 7 minutes
+              Longest focus streak: {mockUserData.deep_work_minutes} minutes
             </p>
             <p className="text-sm italic mt-4">
-              {clarityScore < 40 
+              {score < 40 
                 ? "You are, respectfully, cooked 🔥" 
-                : clarityScore > 70 
+                : score > 70 
                   ? "You're crushing it! Keep this momentum 🚀" 
                   : "You're doing alright, but there's room for improvement 💪"}
             </p>

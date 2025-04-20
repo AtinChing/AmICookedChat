@@ -8,8 +8,8 @@ const LanguageSelector: React.FC = () => {
 
   const languages: { code: Language; label: string }[] = [
     { code: 'en', label: 'EN' },
-    { code: 'es', label: 'ES' },
-    { code: 'ar', label: 'AR' }
+    ///{ code: 'es', label: 'ES' },
+    ///{ code: 'ar', label: 'AR' }
   ];
 
   return (
