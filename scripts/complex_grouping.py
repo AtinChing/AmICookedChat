@@ -59,7 +59,7 @@ def write_stage2_json(grouped_data, output_path):
 def llm_group_entries(entries):
     """Send a sequence of Stage 1 entries to an LLM to group based on intent."""
     
-    client = genai.Client(api_key="AIzaSyDSyIBzIJ9yVnXYd6sJaE7oZ0Vqnc4kEPM")
+    client = genai.Client(api_key="")
     
     """prompt = (
         "Below is a list of user activity logs including timestamps, summaries, and mental contexts. "
