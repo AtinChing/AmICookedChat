@@ -1,0 +1,117 @@
+[
+  [
+    {
+      "summary": "User is watching the Fortnite Galactic Battle Teaser Trailer on YouTube.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T07:03:04.873954",
+      "tab_title": "Fortnite Galactic Battle Teaser Trailer - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=RKZPMyAvEXs",
+      "isDistractive": true,
+      "duration": 0.14
+    },
+    {
+      "summary": "The user is on YouTube, likely about to watch or has just started watching a Fortnite Galactic Battle Teaser Trailer.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T07:03:15.373248",
+      "tab_title": "Fortnite Galactic Battle Teaser Trailer - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=RKZPMyAvEXs",
+      "isDistractive": true,
+      "duration": 0.19
+    },
+    {
+      "summary": "User is on the YouTube website and appears to be watching a Fortnite Galactic Battle Teaser Trailer.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T07:03:28.591860",
+      "tab_title": "Fortnite Galactic Battle Teaser Trailer - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=RKZPMyAvEXs",
+      "isDistractive": true,
+      "duration": 0.04
+    }
+  ],
+  [
+    {
+      "summary": "The user is likely managing or participating in a hackathon project on Devpost, viewing project details and deadlines.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T07:03:32.561942",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions",
+      "isDistractive": false,
+      "duration": 0.05
+    }
+  ],
+  [
+    {
+      "summary": "The user is frequently switching between various apps and websites like Google Search, GitHub, ChatGPT and YouTube, indicating a tendency to get distracted.",
+      "mental_context": "distraction",
+      "timestamp": "2025-04-20T07:03:37.352616",
+      "tab_title": "MindMend.ai | Mental Clarity Tool",
+      "tab_url": "http://localhost:5173/main",
+      "isDistractive": true,
+      "duration": 2.98
+    },
+    {
+      "summary": "The user is frequently switching between coding/productivity-related activities (GitHub, ChatGPT, developing something) and distracting content (YouTube) leading to medium mental clarity.",
+      "mental_context": "distraction",
+      "timestamp": "2025-04-20T07:06:40.265790",
+      "tab_title": "MindMend.ai | Mental Clarity Tool",
+      "tab_url": "http://localhost:5173/main",
+      "isDistractive": true,
+      "duration": 0.22
+    },
+    {
+      "summary": "The user is frequently switching between various applications including coding and AI tools, but is getting distracted by YouTube.",
+      "mental_context": "distraction",
+      "timestamp": "2025-04-20T07:06:54.910667",
+      "tab_title": "MindMend.ai | Mental Clarity Tool",
+      "tab_url": "http://localhost:5173/main",
+      "isDistractive": true,
+      "duration": 0.09
+    },
+    {
+      "summary": "The user is frequently switching between various applications including coding platforms, AI chatbots, and entertainment websites, resulting in decreased mental clarity.",
+      "mental_context": "distraction",
+      "timestamp": "2025-04-20T07:07:08.219418",
+      "tab_title": "MindMend.ai | Mental Clarity Tool",
+      "tab_url": "http://localhost:5173/main",
+      "isDistractive": true,
+      "duration": 1.99
+    },
+    {
+      "summary": "The user is frequently switching between various apps including coding/AI tools and entertainment platforms, indicating a struggle with focus and potential distraction.",
+      "mental_context": "distraction",
+      "timestamp": "2025-04-20T07:09:09.158356",
+      "tab_title": "MindMend.ai | Mental Clarity Tool",
+      "tab_url": "http://localhost:5173/main",
+      "isDistractive": true,
+      "duration": 0.09
+    }
+  ],
+  [
+    {
+      "summary": "The user is on YouTube, potentially about to watch a teaser trailer for a Fortnite Galactic Battle.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T07:09:16.423236",
+      "tab_title": "Fortnite Galactic Battle Teaser Trailer - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=RKZPMyAvEXs",
+      "isDistractive": true,
+      "duration": 0.69
+    },
+    {
+      "summary": "The user is on YouTube, potentially about to watch or is currently watching a Fortnite Galactic Battle Teaser Trailer.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T07:09:59.845862",
+      "tab_title": "Fortnite Galactic Battle Teaser Trailer - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=RKZPMyAvEXs",
+      "isDistractive": true,
+      "duration": 1.36
+    },
+    {
+      "summary": "User is watching a Fortnite Galactic Battle Teaser Trailer on YouTube.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T07:11:47.464533",
+      "tab_title": "Fortnite Galactic Battle Teaser Trailer - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=RKZPMyAvEXs",
+      "isDistractive": true
+    }
+  ]
+]
