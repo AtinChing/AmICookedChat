@@ -25,12 +25,16 @@ const Landing: React.FC = () => {
       {/* Hero Section */}
       <div className="container mx-auto px-6 py-20">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-6xl font-bold mb-8 leading-tight animate-fadeIn">
+        <h1 className="text-6xl font-bold mb-8 leading-tight">
             Real-time
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-300">
-              {" "}Mental Clarity
-            </span>
+            <span
+              className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-indigo-300 animate-fadeIn"
+              style={{ animationDelay: '0.3s', animationFillMode: 'both' }}
+            >
+          {" "}Mental Clarity
+          </span>
           </h1>
+
           <p className="text-xl mb-12 leading-relaxed text-center text-black">
           The AI companion for overwhelmed minds.
           <br />
