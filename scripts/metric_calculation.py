@@ -31,7 +31,7 @@ def update_metrics(input_path, output_path):
     • focus_blocks: number of work or study blocks that lasted 15+ minutes
     • deep_work_minutes: total minutes spent on work
     • breaks: number of entertainment or distraction blocks
-    • focus_timeline: store information about each action. Example of actions: Examples of actions: "Youtube - Gaming", "Google Docs - Project Report", "Gmail - Inbox", "Twitter Feed", "Online Course - Web Developer", "YouTube - Educational". Include 3-5 actions. For example, all actions that count as educational youtube usage, will be accessed and stored as 1 element in this "focus timeline list". The fields it will include:
+    • focus_timeline: store information about each action. Example of actions: Examples of actions: "Youtube - Gaming", "Google Docs - Project Report", "Gmail - Inbox", "Twitter Feed", "Online Course - Web Developer", "YouTube - Educational". Include 3-5 actions. Do NOT give me an empty focus timelines list. For example, all actions that count as educational youtube usage, will be accessed and stored as 1 element in this "focus timeline list". The fields it will include:
         • duration_min: sum of durations of every single instance of this action in our data
         • context: mental_context
         • isDistractive: is it distractive as an activity?

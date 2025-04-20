@@ -1,15 +1,50 @@
 {
-  "mental_clarity_score": 68.37,
-  "current_activity": "User is analyzing the content of a webpage.",
-  "tab_switch_count": 46,
+  "mental_clarity_score": 66.25,
+  "current_activity": "The user is browsing the commit history of a GitHub repository named 'AmICookedChat' owned by 'AtinChing'.",
+  "tab_switch_count": 22,
   "focus_blocks": 0,
-  "deep_work_minutes": 0.5,
+  "deep_work_minutes": 0.57,
   "breaks": 1,
-  "focus_timeline": [],
-  "distraction_loops": [],
+  "focus_timeline": [
+    {
+      "duration_min": 0.26,
+      "context": "neutral",
+      "isDistractive": false,
+      "title": "Devpost - Project nomad"
+    },
+    {
+      "duration_min": 0.21,
+      "context": "work",
+      "isDistractive": false,
+      "title": "ChatGPT - Dev Help"
+    },
+    {
+      "duration_min": 0.2,
+      "context": "work",
+      "isDistractive": false,
+      "title": "Devpost - AmICooked.Chat Submission"
+    },
+    {
+      "duration_min": 0.1,
+      "context": "study",
+      "isDistractive": false,
+      "title": "ChatGPT - Add to PATH Mac"
+    },
+    {
+      "duration_min": 0.08,
+      "context": "work",
+      "isDistractive": false,
+      "title": "ChatGPT - NPM Error"
+    }
+  ],
+  "distraction_loops": [
+    "Google Search - Gemini Docs (work) -> Discord - Chat (distraction)",
+    "GitHub Profile - AtinChing (work) -> YouTube - SIDEMEN Among Us (entertainment)",
+    "Discord - Chat (distraction) -> Google Docs - Hackathon Brainstorm (work)"
+  ],
   "suggestions": [
-    "Schedule dedicated focus blocks for deep work tasks.",
-    "Minimize context switching by batching similar tasks together.",
-    "Use tools to block distracting websites during focused work sessions."
+    "Minimize checking social media or entertainment sites during work/study sessions to prevent context switching.",
+    "Try batching similar low-duration tasks or research queries together to improve flow.",
+    "Consider using website blockers for known distraction sites during focused periods."
   ]
 }
