@@ -2,7 +2,7 @@ from google import genai
 import json
 
 def generate_stage3_summary(stage2_group):
-    client = genai.Client(api_key="AIzaSyDSyIBzIJ9yVnXYd6sJaE7oZ0Vqnc4kEPM")
+    client = genai.Client(api_key="")
     
     prompt = (
         "You are a productivity analyst. A user has the following sequence of browser activity logs. "
