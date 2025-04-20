@@ -8,10 +8,10 @@ const DistractionPatterns: React.FC = () => {
   // Group distractive activities by context and accumulate duration
   const distractorMap = focus_timeline
     .filter((entry) => entry.isDistractive)
-    .reduce<Record<string, { context: string; duration: number; count: number }>>(
+    .reduce<Record<string, { context: string; duration: number; count: number; title: string; }>>(
       (acc, entry) => {
         if (!acc[entry.context]) {
-          acc[entry.context] = { context: entry.context, duration: 0, count: 0 };
+          acc[entry.context] = { context: entry.context, title: entry.title, duration: 0, count: 0 };
         }
         acc[entry.context].duration += entry.duration_min;
         acc[entry.context].count += 1;
@@ -36,6 +36,7 @@ const DistractionPatterns: React.FC = () => {
 
       return {
         name: entry.context,
+        title: entry.title,
         icon,
         time: `${Math.round(entry.duration)} mins`,
         impact,
@@ -59,7 +60,7 @@ const DistractionPatterns: React.FC = () => {
               <div className="flex items-center gap-3">
                 <span className="text-2xl">{distractor.icon}</span>
                 <div>
-                  <span className="font-medium">{distractor.name}</span>
+                  <span className="font-medium">{distractor.title}</span>
                   <div className="flex items-center gap-2 mt-1">
                     <span className="text-xs text-rose-100">
                       {distractor.impact} impact • {distractor.time}

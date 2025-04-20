@@ -10,10 +10,10 @@
       "start": "2025-04-20T05:57:00.167031",
       "end": "2025-06-34:42.344507",
       "duration_min": 37.7,
-      "context": "work",
-      "isDistractive": false,
-      "summary": "The user is working on a project called AmICooked.Chat on Devpost, seemingly participating in a hackathon and is currently in the project submission process.",
-      "title": "Devpost - AmICooked.Chat Submission"
+      "context": "entertainment",
+      "isDistractive": true,
+      "summary": "The user is watching Tiktoks on League of Legends, likely during a break or leisure time.",
+      "title": "TikTok - Video Games"
     },
     {
       "start": "2025-04-20T06:08:37.702606",
@@ -45,11 +45,11 @@
     {
       "start": "2025-04-20T06:08:42.105932",
       "end": "2025-07:14:05.988275",
-      "duration_min": 65.4,
+      "duration_min": 15.4,
       "context": "work",
-      "isDistractive": false,
+      "isDistractive": true,
       "summary": "The user is on a GitHub repository page called 'AmICookedChat' created by 'AtinChing', likely related to a HackDavis 2025 project.",
-      "title": "GitHub - AmICookedChat Repo (Work)"
+      "title": "Youtube - Fortnite Montage"
     },
     {
       "start": "2025-04-20T06:50:29.972437",
