@@ -5,7 +5,7 @@ import LanguageSelector from './LanguageSelector';
 
 const Sidebar: React.FC = () => {
   return (
-    <div className="w-64 fixed top-0 left-0 h-screen flex flex-col bg-gradient-to-b from-purple-200 to-indigo-200 text-black p-4 rounded-r-3xl shadow-xl">
+    <div className="w-64 fixed top-0 left-0 h-screen flex flex-col bg-gradient-to-b from-purple-100 to-indigo-100 text-black p-4 rounded-r-3xl shadow-xl">
       <div className="mb-8">
         <h1 className="text-xl font-bold">
         <span>AmICooked</span>
