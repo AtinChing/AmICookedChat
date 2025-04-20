@@ -13,7 +13,7 @@ const ImprovementSuggestions: React.FC = () => {
       </h2>
 
       <div className="space-y-4">
-        <div className="bg-indigo-400 rounded-2xl p-6">
+        <div className="bg-indigo-400 hover:bg-blue-500 transform hover:scale-[1.02] transition-all duration-200 ease-in-out rounded-2xl p-6 cursor-pointer">
           <div className="flex items-center gap-2 mb-3">
             <Clock size={20} />
             <span className="font-bold">Common Patterns</span>
@@ -25,7 +25,7 @@ const ImprovementSuggestions: React.FC = () => {
           </ul>
         </div>
 
-        <div className="bg-indigo-400 rounded-2xl p-6">
+        <div className="bg-indigo-400 hover:bg-blue-500 transform hover:scale-[1.02] transition-all duration-200 ease-in-out rounded-2xl p-6 cursor-pointer">
           <div className="flex items-center gap-2 mb-3">
             <Shield size={20} />
             <span className="font-bold">Suggestions</span>

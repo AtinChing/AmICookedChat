@@ -12,29 +12,26 @@ const AlertBanner: React.FC = () => {
     switch (type) {
       case 'success':
         return {
-          bgColor: 'bg-green-400',
-          hoverColor: 'hover:text-green-100',
+          bgColor: 'bg-green-500',
+          hoverBgColor: 'hover:bg-amber-500',
+          hoverTextColor: 'hover:text-green-100',
           Icon: CheckCircle
         };
       case 'warning':
-        return {
-          bgColor: 'bg-amber-400',
-          hoverColor: 'hover:text-amber-100',
-          Icon: AlertTriangle
-        };
       default:
         return {
-          bgColor: 'bg-amber-400',
-          hoverColor: 'hover:text-amber-100',
+          bgColor: 'bg-yellow-500',
+          hoverBgColor: 'hover:bg-amber-600',
+          hoverTextColor: 'hover:text-yellow-100',
           Icon: AlertTriangle
         };
     }
-  };
+  };  
 
-  const { bgColor, hoverColor, Icon } = getAlertStyles(alert.type);
+  const { bgColor, hoverBgColor, hoverTextColor, Icon } = getAlertStyles(alert.type);
 
   return (
-    <div className={`${bgColor} rounded-3xl p-6 mb-6 text-white shadow-lg`}>
+    <div className={`${bgColor} ${hoverBgColor} transition-colors duration-200 rounded-3xl p-6 mb-6 text-white shadow-lg group`}>
       <div className="flex justify-between items-start">
         <div className="flex items-start gap-3">
           <Icon size={24} className="mt-1" />
@@ -47,7 +44,7 @@ const AlertBanner: React.FC = () => {
         </div>
         <button 
           onClick={() => setVisible(false)}
-          className={`text-white ${hoverColor} transition-colors`}
+          className={`text-white ${hoverTextColor} transition-colors duration-200`}
         >
           <X size={24} />
         </button>

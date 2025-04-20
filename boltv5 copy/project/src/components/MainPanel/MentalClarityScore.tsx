@@ -15,14 +15,16 @@ const MentalClarityScore: React.FC = () => {
   const statusInfo = getCookedStatus();
   
   return (
-    <div className="bg-violet-500 rounded-3xl p-8 text-white shadow-lg">
-      <div className="flex items-center justify-between mb-6">
-        <h2 className="text-2xl font-bold flex items-center gap-2">
-          <Brain size={24} />
-          How cooked are you?
-        </h2>
-        <span className="text-4xl">{statusInfo.emoji}</span>
-      </div>
+<div className="bg-violet-500 rounded-3xl p-8 text-white shadow-lg transition-transform duration-300 hover:scale-[1.02] cursor-pointer group">
+    <div className="flex items-center justify-between mb-6">
+      <h2 className="text-2xl font-bold flex items-center gap-2">
+        <Brain size={24} />
+        How cooked are you?
+      </h2>
+      <span className="text-4xl transform transition-transform duration-300 group-hover:scale-[1.4]">
+        {statusInfo.emoji}
+      </span>
+    </div>
       
       <div className="space-y-6">
         <div>

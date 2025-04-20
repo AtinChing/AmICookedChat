@@ -55,7 +55,10 @@ const DistractionPatterns: React.FC = () => {
 
       <div className="space-y-4">
         {distractors.map((distractor) => (
-          <div key={distractor.name} className="bg-rose-300 rounded-2xl p-4">
+          <div
+          key={distractor.name}
+          className="bg-rose-300 hover:bg-red-500 transition-all duration-300 transform hover:scale-105 rounded-2xl p-4 cursor-pointer"
+        >
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-3">
                 <span className="text-2xl">{distractor.icon}</span>

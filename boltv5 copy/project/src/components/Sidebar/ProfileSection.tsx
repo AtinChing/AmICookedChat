@@ -12,8 +12,8 @@ const ProfileSection: React.FC = () => {
   const clarityScore = Math.round(mental_clarity_score); // This should eventually come from your actual user data
 
   return (
-    <div className="flex items-center p-4 mb-6 bg-opacity-10 bg-purple-400 rounded-lg">
-      <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center text-teal-700 mr-3 overflow-hidden shrink-0">
+    <div className="flex items-center p-4 mb-6 bg-opacity-10 bg-purple-400 rounded-lg group transition-transform duration-300 hover:scale-[1.02]">
+      <div className="w-10 h-10 rounded-full bg-teal-100 flex items-center justify-center text-teal-700 mr-3 overflow-hidden shrink-0 transform transition-transform duration-200 group-hover:scale-110">
         {picture ? (
           <img 
             src={picture} 
