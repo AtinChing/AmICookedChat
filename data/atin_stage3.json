@@ -1,17 +1,18 @@
 {
-  "mental_clarity_score": 70.19,
-  "current_activity": "The user is managing and preparing to submit their project, AmICooked.Chat, for a hackathon on Devpost.",
-  "tab_switch_count": 11,
+  "mental_clarity_score": 82.25,
+  "current_activity": "The user is on a GitHub repository page called 'AmICookedChat' created by 'AtinChing', likely related to a HackDavis 2025 project.",
+  "tab_switch_count": 14,
   "focus_blocks": 0,
-  "deep_work_minutes": 0.07,
+  "deep_work_minutes": 0.14,
   "breaks": 1,
   "focus_timeline": [],
   "distraction_loops": [
-    "google.com -> youtube.com"
+    "Study -> Entertainment",
+    "Entertainment -> Work"
   ],
   "suggestions": [
-    "Consider scheduling dedicated blocks for focused work or study.",
-    "Be mindful of transitions to entertainment or distracting sites. Try planning your breaks.",
-    "Pay attention to common distraction triggers like transitioning to google.com -> youtube.com."
+    "Schedule dedicated focus blocks and breaks.",
+    "Use website blockers for distracting sites like YouTube during focus times.",
+    "Plan transitions between tasks to avoid getting sidetracked."
   ]
 }

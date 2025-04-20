@@ -38,7 +38,7 @@ def update_metrics(input_path, output_path):
         • isDistractive: is it distractive as an activity?
         • summary: from the first activity
         • title : title will be based on summary. it will be extremely brief and an overview of what the task was. Examples: "Youtube - Gaming", "Google Docs - Project Report", "Gmail - Inbox", "Twitter Feed", "Online Course - Web Developer", "YouTube - Educational"
-    • distraction_loops: any sequence of tasks or websites which seem to be a common recurrence and are mostly distractions, for example Google Docs -> YouTube could be a common occurence, or Netflix -> YouTube can be a common transition which is mostly distraction too. Feel free to include upto 3 distraction loops
+    • distraction_loops: any sequence of tasks or websites which seem to be a common recurrence and are mostly distractions, for example Google Docs -> YouTube could be a common occurence, or Netflix -> YouTube can be a common transition which is mostly distraction too. Feel free to include upto 3 distraction loops. Do NOT include vague/umbrella terms like "Entertainment", "Work", "Study". Do not include loops that ONLY contain non-distractive activities. At least both or the second activity of each loop needs to be a distractive activity.
     • suggestions: 2-3 action tips to improve focus
     Make sure to NOT include entries with a duration_min value lesser than 3!
     Only return valid JSON. Do not include explanation or prose.

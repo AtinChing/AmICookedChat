@@ -88,7 +88,7 @@ async def schedule_stage2_to_3(): # metric calculation
             calculate_metrics()
         except Exception as e:
             print(f"❌ Stage 2→3 task error: {e}")
-        await asyncio.sleep(180)  # every 3 min (or pick between 120–300)
+        await asyncio.sleep(60)  # every 3 min (or pick between 120–300)
 
 
 if __name__ == "__main__":
