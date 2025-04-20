@@ -1,0 +1,260 @@
+[
+  [
+    {
+      "timestamp": "2025-04-19T23:50:01.008120",
+      "tab_title": "Reddit - r/unpopularopinion",
+      "tab_url": "https://reddit.com",
+      "summary": "Doomscrolling forums",
+      "mental_context": "distraction"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-19T23:55:01.008120",
+      "tab_title": "Netflix - Family Guy",
+      "tab_url": "https://netflix.com",
+      "summary": "Watching TV shows",
+      "mental_context": "entertainment"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:00:01.008120",
+      "tab_title": "Gmail - UC Davis Email",
+      "tab_url": "https://mail.google.com",
+      "summary": "Checking email",
+      "mental_context": "neutral"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:05:01.008120",
+      "tab_title": "Leetcode - Medium Problem",
+      "tab_url": "https://leetcode.com",
+      "summary": "Solving coding problems",
+      "mental_context": "study"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:10:01.008120",
+      "tab_title": "YouTube - Minecraft Let's Play",
+      "tab_url": "https://youtube.com",
+      "summary": "Watching entertainment content",
+      "mental_context": "entertainment"
+    },
+    {
+      "timestamp": "2025-04-20T00:15:01.008120",
+      "tab_title": "Netflix - Family Guy",
+      "tab_url": "https://netflix.com",
+      "summary": "Watching TV shows",
+      "mental_context": "entertainment"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:20:01.008120",
+      "tab_title": "Reddit - r/unpopularopinion",
+      "tab_url": "https://reddit.com",
+      "summary": "Doomscrolling forums",
+      "mental_context": "distraction"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:25:01.008120",
+      "tab_title": "Gmail - UC Davis Email",
+      "tab_url": "https://mail.google.com",
+      "summary": "Checking email",
+      "mental_context": "neutral"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:30:01.008120",
+      "tab_title": "ChatGPT - Asking About LLM Pipelines",
+      "tab_url": "https://chat.openai.com",
+      "summary": "Researching or coding with ChatGPT",
+      "mental_context": "work"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:35:01.008120",
+      "tab_title": "Twitter - Trending Topics",
+      "tab_url": "https://twitter.com",
+      "summary": "Scrolling through social media",
+      "mental_context": "distraction"
+    },
+    {
+      "timestamp": "2025-04-20T00:40:01.008120",
+      "tab_title": "Reddit - r/unpopularopinion",
+      "tab_url": "https://reddit.com",
+      "summary": "Doomscrolling forums",
+      "mental_context": "distraction"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:45:01.008120",
+      "tab_title": "Google Docs - HackDavis Plan",
+      "tab_url": "https://docs.google.com",
+      "summary": "Working on HackDavis project",
+      "mental_context": "work"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T00:50:01.008120",
+      "tab_title": "Twitter - Trending Topics",
+      "tab_url": "https://twitter.com",
+      "summary": "Scrolling through social media",
+      "mental_context": "distraction"
+    },
+    {
+      "timestamp": "2025-04-20T00:55:01.008120",
+      "tab_title": "Reddit - r/unpopularopinion",
+      "tab_url": "https://reddit.com",
+      "summary": "Doomscrolling forums",
+      "mental_context": "distraction"
+    },
+    {
+      "timestamp": "2025-04-20T01:00:01.008120",
+      "tab_title": "Twitter - Trending Topics",
+      "tab_url": "https://twitter.com",
+      "summary": "Scrolling through social media",
+      "mental_context": "distraction"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:05:01.008120",
+      "tab_title": "Netflix - Family Guy",
+      "tab_url": "https://netflix.com",
+      "summary": "Watching TV shows",
+      "mental_context": "entertainment"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:10:01.008120",
+      "tab_title": "Wikipedia - Generative AI",
+      "tab_url": "https://wikipedia.org",
+      "summary": "Researching academic topics",
+      "mental_context": "study"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:15:01.008120",
+      "tab_title": "Gmail - UC Davis Email",
+      "tab_url": "https://mail.google.com",
+      "summary": "Checking email",
+      "mental_context": "neutral"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:20:01.008120",
+      "tab_title": "Netflix - Family Guy",
+      "tab_url": "https://netflix.com",
+      "summary": "Watching TV shows",
+      "mental_context": "entertainment"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:25:01.008120",
+      "tab_title": "ChatGPT - Asking About LLM Pipelines",
+      "tab_url": "https://chat.openai.com",
+      "summary": "Researching or coding with ChatGPT",
+      "mental_context": "work"
+    },
+    {
+      "timestamp": "2025-04-20T01:30:01.008120",
+      "tab_title": "Google Docs - HackDavis Plan",
+      "tab_url": "https://docs.google.com",
+      "summary": "Working on HackDavis project",
+      "mental_context": "work"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:35:01.008120",
+      "tab_title": "Wikipedia - Generative AI",
+      "tab_url": "https://wikipedia.org",
+      "summary": "Researching academic topics",
+      "mental_context": "study"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:40:01.008120",
+      "tab_title": "Netflix - Family Guy",
+      "tab_url": "https://netflix.com",
+      "summary": "Watching TV shows",
+      "mental_context": "entertainment"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:45:01.008120",
+      "tab_title": "Wikipedia - Generative AI",
+      "tab_url": "https://wikipedia.org",
+      "summary": "Researching academic topics",
+      "mental_context": "study"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:50:01.008120",
+      "tab_title": "Twitter - Trending Topics",
+      "tab_url": "https://twitter.com",
+      "summary": "Scrolling through social media",
+      "mental_context": "distraction"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T01:55:01.008120",
+      "tab_title": "Netflix - Family Guy",
+      "tab_url": "https://netflix.com",
+      "summary": "Watching TV shows",
+      "mental_context": "entertainment"
+    },
+    {
+      "timestamp": "2025-04-20T02:00:01.008120",
+      "tab_title": "YouTube - Minecraft Let's Play",
+      "tab_url": "https://youtube.com",
+      "summary": "Watching entertainment content",
+      "mental_context": "entertainment"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T02:05:01.008120",
+      "tab_title": "Twitter - Trending Topics",
+      "tab_url": "https://twitter.com",
+      "summary": "Scrolling through social media",
+      "mental_context": "distraction"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T02:10:01.008120",
+      "tab_title": "Leetcode - Medium Problem",
+      "tab_url": "https://leetcode.com",
+      "summary": "Solving coding problems",
+      "mental_context": "study"
+    }
+  ],
+  [
+    {
+      "timestamp": "2025-04-20T02:15:01.008120",
+      "tab_title": "Reddit - r/unpopularopinion",
+      "tab_url": "https://reddit.com",
+      "summary": "Doomscrolling forums",
+      "mental_context": "distraction"
+    }
+  ]
+]
