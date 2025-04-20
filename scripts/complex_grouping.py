@@ -81,17 +81,24 @@ Respond with a JSON array of grouped lists."""
     return grouped_output
 
 
-if __name__ == "__main__":
-    input_path = "data/classification.jsonl"  # replace with your path
-    output_path = "data/stage2_grouped_complex.json"
+def group(input_path, output_path):
+    
 
     stage1_data = load_stage1_jsonl(input_path)
-    rule_based_groups = group_stage1_data(stage1_data)
-    write_stage2_json(rule_based_groups, output_path)
-
-    print(f"✅ Grouped {len(stage1_data)} entries into {len(rule_based_groups)} blocks → saved to {output_path}")
+    #rule_based_groups = group_stage1_data(stage1_data)
+    smart_groups = llm_group_entries(stage1_data, api_key="AIzaSyChVe6HRoHi9GFVUW27jXQ3BmLtJJAbJ4w")
+    write_stage2_json(smart_groups, output_path)
+    print(f"✅ Grouped {len(stage1_data)} entries into {len(smart_groups)} blocks → saved to {output_path}")
 
     # Optional LLM-enhanced pass (example on first 10 entries)
     # Replace with your real API key before running
     # smart_groups = llm_group_entries(stage1_data[:10], api_key="your_key_here")
     # print(json.dumps(smart_groups, indent=2))
+if __name__ == "__main__":
+    input_path = "data/classification.jsonl"  # replace with your path
+    output_path = "data/stage2_grouped_complex.json"
+    stage1_data = load_stage1_jsonl(input_path)
+    #rule_based_groups = group_stage1_data(stage1_data)
+    smart_groups = llm_group_entries(stage1_data)
+    write_stage2_json(smart_groups, output_path)
+    print(f"✅ Grouped {len(stage1_data)} entries into {len(smart_groups)} blocks → saved to {output_path}")
