@@ -4,17 +4,29 @@
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
-import google.generativeai as genai
+from google import genai
 
 
 def load_stage1_jsonl(file_path):
     """Load stage 1 JSONL file assuming valid newline-delimited JSON objects."""
-    data = []
-    with open(file_path, 'r') as f:
-        for line in f:
-            item = json.loads(line)
-            item["timestamp"] = datetime.fromisoformat(item["timestamp"])
-            data.append(item)
+    raw = Path(file_path).read_text()
+
+    # Try to split between closing and opening braces only when they are flush together (e.g. }{)
+    fixed_raw = raw.replace('}{', '}\n{')
+    fixed = []
+    buffer = ""
+    brace_count = 0
+    for char in fixed_raw:
+        buffer += char
+        if char == '{':
+            brace_count += 1
+        elif char == '}':
+            brace_count -= 1
+            if brace_count == 0:
+                fixed.append(buffer.strip())
+                buffer = ""
+
+    data = [json.loads(entry) for entry in fixed]
     return sorted(data, key=lambda x: x["timestamp"])
 
 
@@ -25,7 +37,7 @@ def group_stage1_data(data, max_gap_min=5):
 
     for i in range(1, len(data)):
         curr, prev = data[i], data[i - 1]
-        gap = curr["timestamp"] - prev["timestamp"]
+        gap = datetime.fromisoformat(curr["timestamp"])- datetime.fromisoformat(prev["timestamp"])
         same_context = curr["mental_context"] == prev["mental_context"]
 
         if same_context and gap <= timedelta(minutes=max_gap_min):
@@ -41,7 +53,7 @@ def group_stage1_data(data, max_gap_min=5):
 def write_stage2_json(grouped_data, output_path):
     for group in grouped_data:
         for item in group:
-            item["timestamp"] = item["timestamp"].isoformat()
+            item["timestamp"] = item["timestamp"]
     with open(output_path, "w") as f:
         json.dump(grouped_data, f, indent=2)
 

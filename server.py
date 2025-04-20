@@ -7,6 +7,7 @@ from scripts.topic_classification import classify
 app = Flask(__name__)
 LOG_FILE = "data/classification.jsonl"
 print("🔍 Writing to:", os.path.abspath(LOG_FILE))
+
 @app.route("/log", methods=["POST"])
 def log_tab_data():
     try:

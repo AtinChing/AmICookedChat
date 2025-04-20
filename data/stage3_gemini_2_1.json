@@ -1,0 +1,22 @@
+{
+    "mental_clarity_score": 75,
+    "current_activity": "Filling out a student talent form for Fidelity",
+    "tab_switch_count": 1,
+    "focus_blocks": 1,
+    "deep_work_minutes": 0.01,
+    "breaks": 0,
+    "focus_timeline": [
+        {
+            "start": "2025-04-19T21:19:38.992725",
+            "end": "2025-04-19T21:19:39.535921",
+            "duration_min": 0.01,
+            "context": "work",
+            "summary": "Troubleshooting Google AI Studio access issue then filling out Fidelity Student Talent Form."
+        }
+    ],
+    "distraction_loops": [],
+    "suggestions": [
+        "Consider resolving the Google AI Studio access issue later if it's blocking your primary task. Create a separate task to address this.",
+        "Prioritize tasks to maintain focus. Decide if the Fidelity form is the most important task to accomplish right now."
+    ]
+}

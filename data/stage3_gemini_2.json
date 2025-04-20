@@ -1,0 +1,23 @@
+{
+    "mental_clarity_score": 75,
+    "current_activity": "Filling out student talent form",
+    "tab_switch_count": 1,
+    "focus_blocks": 1,
+    "deep_work_minutes": 0.01,
+    "breaks": 0,
+    "focus_timeline": [
+        {
+            "start": "2025-04-19T21:19:38.992725",
+            "end": "2025-04-19T21:19:39.535921",
+            "duration_min": 0.01,
+            "context": "work",
+            "summary": "Attempting to access AI Studio, then filling out student talent form."
+        }
+    ],
+    "distraction_loops": [],
+    "suggestions": [
+        "Investigate and resolve the access issue with AI Studio to avoid future roadblocks.",
+        "Consider time blocking to dedicate focused time to specific tasks, such as the talent form, to improve efficiency.",
+        "Minimize tab switching to maintain focus on the primary task at hand. Consider using a single browser window for work-related activities."
+    ]
+}
