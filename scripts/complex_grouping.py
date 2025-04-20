@@ -52,16 +52,8 @@ def group_stage1_data(data, max_gap_min=5):
 
 
 def write_stage2_json(grouped_data, output_path):
-    existing_data = []
-    if os.path.exists(output_path) and os.path.getsize(output_path) > 0:
-        with open(output_path, "r") as f:
-            existing_data = json.load(f)
-    else:
-        existing_data = []
-    combined_data = existing_data + grouped_data
-    print(combined_data)
     with open(output_path, "w") as f:
-        json.dump(combined_data, f, indent=2)
+        json.dump(grouped_data, f, indent=2)
 
 
 def llm_group_entries(entries):

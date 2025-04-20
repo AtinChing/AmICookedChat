@@ -1,0 +1,133 @@
+[
+  [
+    {
+      "summary": "The user is working on a project called AmICooked.Chat on Devpost, seemingly participating in a hackathon and is currently in the project submission process.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T05:57:00.167031",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions/645706-amicooked-chat/additional-info/edit",
+      "isDistractive": false,
+      "duration": 0.01
+    },
+    {
+      "summary": "The user is working on a hackathon project called AmICooked.Chat, which is in the draft stage and has about 5 hours until the deadline.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T05:57:02.567081",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions/645706-amicooked-chat/additional-info/edit",
+      "isDistractive": false,
+      "duration": 0.02
+    },
+    {
+      "summary": "The user is working on a hackathon project called AmICooked.Chat on Devpost and is about 5 hours from the deadline.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T05:57:05.615350",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions/645706-amicooked-chat/additional-info/edit",
+      "isDistractive": false,
+      "duration": 2.32
+    },
+    {
+      "summary": "The user is on their GitHub profile page, likely managing repositories, projects, or other related activities.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T05:59:26.868992",
+      "tab_title": "AtinChing (Atin Kumar Singh)",
+      "tab_url": "https://github.com/AtinChing?tab=overview&from=2025-04-01&to=2025-04-20",
+      "isDistractive": false,
+      "duration": 0.89
+    },
+    {
+      "summary": "The user is on Devpost, viewing and potentially managing a project called \"AmICooked.Chat\" in a hackathon, and is likely working on it.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T06:01:09.333643",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions/645706-amicooked-chat/project_details/edit",
+      "isDistractive": false,
+      "duration": 0.82
+    },
+    {
+      "summary": "The user is working on a hackathon project called \"AmICooked.Chat\" on Devpost and is near the deadline.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T06:02:00.616377",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions/645706-amicooked-chat/project_details/edit",
+      "isDistractive": false,
+      "duration": 0.01
+    },
+    {
+      "summary": "User is searching for how to convert an ISO string to a datetime object in Python.",
+      "mental_context": "study",
+      "timestamp": "2025-04-20T06:02:03.152596",
+      "tab_title": "convert iso string to datetime python - Google Search",
+      "tab_url": "https://www.google.com/search?q=convert+iso+string+to+datetime+python&oq=convert+isof+string+to+date&gs_lcrp=EgZjaHJvbWUqCQgCEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCAgFEAAYDRgeMggIBhAAGA0YHjIICAcQABgNGB4yCAgIEAAYDRgeMgYICRAuGEDSAQg3OTI0ajBqMagCALACAA&sourceid=chrome&ie=UTF-8",
+      "isDistractive": false,
+      "duration": 0.1
+    },
+    {
+      "summary": "The user is managing and preparing to submit their project, AmICooked.Chat, for a hackathon on Devpost.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T06:05:17.716934",
+      "tab_title": "Devpost",
+      "tab_url": "https://devpost.com/submit-to/24856-hackdavis-2025/manage/submissions/645706-amicooked-chat/additional-info/edit",
+      "isDistractive": false,
+      "duration": 2.88
+    },
+    {
+      "summary": "The user is viewing a private GitHub repository named 'AmICookedChat' created by 'AtinChing', likely a project for HackDavis 2025.",
+      "mental_context": "neutral",
+      "timestamp": "2025-04-20T06:08:40.232697",
+      "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+      "tab_url": "https://github.com/AtinChing/AmICookedChat",
+      "isDistractive": false,
+      "duration": -0.0
+    },
+    {
+      "summary": "The user is on a GitHub repository page called 'AmICookedChat' created by 'AtinChing', likely related to a HackDavis 2025 project.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T06:08:42.105932",
+      "tab_title": "AtinChing/AmICookedChat: Project for HackDavis 2025.",
+      "tab_url": "https://github.com/AtinChing/AmICookedChat",
+      "isDistractive": false
+    }
+  ],
+  [
+    {
+      "summary": "User is watching a YouTube video titled 'SIDEMEN AMONG US: PRISON BREAK EDITION'.",
+      "mental_context": "entertainment",
+      "timestamp": "2025-04-20T06:02:35.372305",
+      "tab_title": "(9) SIDEMEN AMONG US: PRISON BREAK EDITION - YouTube",
+      "tab_url": "https://www.youtube.com/watch?v=pTfN28TR-SY&t=42s",
+      "isDistractive": true,
+      "duration": 1.77
+    }
+  ],
+  [
+    {
+      "summary": "User is developing a tool to track and analyze attention fragmentation by monitoring various computer activities like app switching, browser history, and clipboard use to provide insights on focus and productivity.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T06:08:25.369032",
+      "tab_title": "Attention Split Tracker Roadmap",
+      "tab_url": "https://chatgpt.com/c/6803e40e-bdcc-8011-abdd-6c2f5c9223a5",
+      "isDistractive": false,
+      "duration": 0.14
+    },
+    {
+      "summary": "User is browsing the Devpost page for the 'nomad' project, likely related to addressing homelessness and lost animals.",
+      "mental_context": "neutral",
+      "timestamp": "2025-04-20T06:08:35.670608",
+      "tab_title": "nomad /\\ | Devpost",
+      "tab_url": "https://devpost.com/software/nomad-xmlf65",
+      "isDistractive": false,
+      "duration": -0.01
+    },
+    {
+      "summary": "User is collaborating on a Google Docs document, likely related to HackDavis and brainstorming project ideas with a focus on resume impact and AI/ML relevance.",
+      "mental_context": "work",
+      "timestamp": "2025-04-20T06:08:37.702606",
+      "tab_title": "HackDavis - Google Docs",
+      "tab_url": "https://docs.google.com/document/d/1dJqgfg3anG8pkhmCM6qhcUgD8U6MuKVs0DSo-jTFLSo/edit?tab=t.0",
+      "isDistractive": false,
+      "duration": 0.01
+    }
+  ]
+]
