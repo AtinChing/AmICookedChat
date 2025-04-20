@@ -1,6 +1,21 @@
 # AmICookedChat
 Project for HackDavis 2025.
 
+## How to run
+#### 1. Clone the repo
+#### 2. Empty data files
+- Empty data/classification.jsonl
+- Empty data/stage2_grouped_complex.json
+#### 3. Chrome Extension
+- Go to chrome://extensions
+- Click load unpacked
+- Select the extensions folder
+#### 4. Python FastAPI Script
+- Run server.py
+
+Now you should be good!
+
+
 ## Data Stages terminology
 
 ### Stage 0 Data

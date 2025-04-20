@@ -29,7 +29,8 @@ async def log_tab_data(data : Data, background_tasks: BackgroundTasks):
                 lines = f.readlines()
         else:
             lines = []
-
+        if data.tab_title == "Am I Cooked.chat | Mental Clarity Tool":
+            return {"status": "ok"}
         # Update the *last* entry with end_timestamp = this entry's timestamp
         if lines:
             last_entry = json.loads(lines[-1])
@@ -88,7 +89,7 @@ async def schedule_stage2_to_3(): # metric calculation
             calculate_metrics()
         except Exception as e:
             print(f"❌ Stage 2→3 task error: {e}")
-        await asyncio.sleep(180)  # every 3 min (or pick between 120–300)
+        await asyncio.sleep(60)  # every 3 min (or pick between 120–300)
 
 
 if __name__ == "__main__":

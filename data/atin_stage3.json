@@ -1,17 +1,15 @@
 {
-  "mental_clarity_score": 70.19,
-  "current_activity": "The user is managing and preparing to submit their project, AmICooked.Chat, for a hackathon on Devpost.",
-  "tab_switch_count": 11,
+  "mental_clarity_score": 68.37,
+  "current_activity": "User is analyzing the content of a webpage.",
+  "tab_switch_count": 46,
   "focus_blocks": 0,
-  "deep_work_minutes": 0.07,
+  "deep_work_minutes": 0.5,
   "breaks": 1,
   "focus_timeline": [],
-  "distraction_loops": [
-    "google.com -> youtube.com"
-  ],
+  "distraction_loops": [],
   "suggestions": [
-    "Consider scheduling dedicated blocks for focused work or study.",
-    "Be mindful of transitions to entertainment or distracting sites. Try planning your breaks.",
-    "Pay attention to common distraction triggers like transitioning to google.com -> youtube.com."
+    "Schedule dedicated focus blocks for deep work tasks.",
+    "Minimize context switching by batching similar tasks together.",
+    "Use tools to block distracting websites during focused work sessions."
   ]
 }
