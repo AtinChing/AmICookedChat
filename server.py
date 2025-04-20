@@ -17,7 +17,7 @@ def log_tab_data():
         res = classify(html_content=data["html_content"], title=data["tab_title"], url=data["tab_url"])
         # Append to file as JSON Lines
         with open(LOG_FILE, "a") as f:
-            f.write(json.dumps(res, indent=4))
+            f.write(json.dumps(res) + "\n")
     except Exception as e:
         print("❌ ERROR writing log:", str(e))
         return {"status": "error", "message": str(e)}, 500
