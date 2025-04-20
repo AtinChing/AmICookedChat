@@ -13,7 +13,6 @@ const Sidebar: React.FC = () => {
       </div>
       
       <ProfileSection />
-      <Navigation />
       <LanguageSelector />
     </div>
   );
