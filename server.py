@@ -3,7 +3,7 @@ import json
 import os
 import time
 from datetime import datetime
-from topic_classification import classify
+from scripts.topic_classification import classify
 app = Flask(__name__)
 LOG_FILE = "classification.jsonl"
 print("🔍 Writing to:", os.path.abspath(LOG_FILE))
@@ -13,7 +13,7 @@ def log_tab_data():
         data : dict = request.get_json()
         
         #print("Received log:", data)
-        time.sleep(30) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT t
+        time.sleep(1) # to prevent rate limiting, we dont need ON-THE-SPOT-ON-THE-SPOT t
         res = classify(html_content=data["html_content"], title=data["tab_title"], url=data["tab_url"])
         # Append to file as JSON Lines
         with open(LOG_FILE, "a") as f:

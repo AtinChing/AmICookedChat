@@ -26,7 +26,7 @@ def isDistractive(category):
         return True
 
 def classify(title, url, html_content):
-    prompt = "This is the content of the webpage I am currently on right now, derived from original raw html content which has been stripped of tags and bloat.\n" + html_content + "\n\n\nPlease summarise what the user is doing in 1 sentence. Examples include: \"User is watching a fun YouTube video.\", \"User is learning from a YouTube video.\" \"User is playing video games.\". In addition to this, please give me a mental_context classification, which classifies what the user is doing into one of these categories: [neutral, work, distraction, study, entertainment]. Return the output in a json format of the 2 fields named summary and mental_context."
+    prompt = "This is the content of the webpage I am currently on right now, derived from original raw html content which has been stripped of tags and bloat.\n" + clean_html(html_content) + "\n\n\nPlease summarise what the user is doing in 1 sentence. Examples include: \"User is watching a fun YouTube video.\", \"User is learning from a YouTube video.\" \"User is playing video games.\". In addition to this, please give me a mental_context classification, which classifies what the user is doing into one of these categories: [neutral, work, distraction, study, entertainment]. Return the output in a json format of the 2 fields named summary and mental_context."
     time1 = datetime.datetime.now()
     response = client.models.generate_content(
         model="gemini-2.0-flash", contents=prompt
