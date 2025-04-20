@@ -9,5 +9,9 @@
     },
     "action": {
       "default_title": "Attention Logger Active"
-    }
+    },
+    "web_accessible_resources": [{
+    "resources": ["content.js"],
+    "matches": ["<all_urls>"]
+  }]
   }

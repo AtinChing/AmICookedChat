@@ -313,3 +313,5 @@ Final metrics are determined using the stage 2 data
 
 ## Concerns:
 - What if a user is looking at a minecraft lets play for web scraping or productive reasons? We would need to be able to derive this if this activity is surrounded by an activity that shows productivity related to this (E.g. coding a minecraft plugin on Java)
+    - Solution: Just use LLM-based grouping for the tasks/activities etc.
+- When a user loads or opens a website for the first time, it doesn't have content right away, so that data can't really be accessed in any proper way.
